@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		620974E8FC48CF3477F15C97 /* Pods_FoodieApp_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 99E550BDCDC61DF844E1E5E0 /* Pods_FoodieApp_iOS.framework */; };
 		FC4F9D98255B8E4600996D92 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC4F9D97255B8E4600996D92 /* AppDelegate.swift */; };
 		FC4F9D9A255B8E4600996D92 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC4F9D99255B8E4600996D92 /* SceneDelegate.swift */; };
 		FC4F9D9C255B8E4600996D92 /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC4F9D9B255B8E4600996D92 /* WelcomeViewController.swift */; };
@@ -16,6 +17,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4D9311C04ED10998244071E3 /* Pods-FoodieApp-iOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FoodieApp-iOS.debug.xcconfig"; path = "Target Support Files/Pods-FoodieApp-iOS/Pods-FoodieApp-iOS.debug.xcconfig"; sourceTree = "<group>"; };
+		99E550BDCDC61DF844E1E5E0 /* Pods_FoodieApp_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FoodieApp_iOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A5F4C1B4CFFD9275148D0FDD /* Pods-FoodieApp-iOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FoodieApp-iOS.release.xcconfig"; path = "Target Support Files/Pods-FoodieApp-iOS/Pods-FoodieApp-iOS.release.xcconfig"; sourceTree = "<group>"; };
 		FC4F9D94255B8E4600996D92 /* FoodieApp-iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "FoodieApp-iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FC4F9D97255B8E4600996D92 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FC4F9D99255B8E4600996D92 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -31,17 +35,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				620974E8FC48CF3477F15C97 /* Pods_FoodieApp_iOS.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6D2766B92077F39C1654235E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				99E550BDCDC61DF844E1E5E0 /* Pods_FoodieApp_iOS.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AC492394C6D0A3D49CB08674 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4D9311C04ED10998244071E3 /* Pods-FoodieApp-iOS.debug.xcconfig */,
+				A5F4C1B4CFFD9275148D0FDD /* Pods-FoodieApp-iOS.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		FC4F9D8B255B8E4600996D92 = {
 			isa = PBXGroup;
 			children = (
 				FC4F9D96255B8E4600996D92 /* FoodieApp-iOS */,
 				FC4F9D95255B8E4600996D92 /* Products */,
+				AC492394C6D0A3D49CB08674 /* Pods */,
+				6D2766B92077F39C1654235E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -106,9 +130,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FC4F9DA8255B8E4700996D92 /* Build configuration list for PBXNativeTarget "FoodieApp-iOS" */;
 			buildPhases = (
+				E9F527BDDB478ADC5A50EC23 /* [CP] Check Pods Manifest.lock */,
 				FC4F9D90255B8E4600996D92 /* Sources */,
 				FC4F9D91255B8E4600996D92 /* Frameworks */,
 				FC4F9D92255B8E4600996D92 /* Resources */,
+				FC4F9DB9255B985E00996D92 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -163,6 +189,48 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		E9F527BDDB478ADC5A50EC23 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FoodieApp-iOS-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FC4F9DB9255B985E00996D92 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "if which swiftlint >/dev/null; then\n  swiftlint\nelse\n  echo \"warning: SwiftLint not installed, download from https://github.com/realm/SwiftLint\"\nfi\n";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		FC4F9D90255B8E4600996D92 /* Sources */ = {
@@ -315,6 +383,7 @@
 		};
 		FC4F9DA9255B8E4700996D92 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4D9311C04ED10998244071E3 /* Pods-FoodieApp-iOS.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -334,6 +403,7 @@
 		};
 		FC4F9DAA255B8E4700996D92 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A5F4C1B4CFFD9275148D0FDD /* Pods-FoodieApp-iOS.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
