@@ -20,6 +20,9 @@
 		FC4F9DC8255B9A9200996D92 /* Poppins-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FC4F9DC7255B9A9200996D92 /* Poppins-Light.ttf */; };
 		FC4F9DCB255B9AD800996D92 /* Poppins-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FC4F9DCA255B9AD800996D92 /* Poppins-Medium.ttf */; };
 		FC4F9DD0255B9C5C00996D92 /* FontName.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC4F9DCF255B9C5C00996D92 /* FontName.swift */; };
+		FC4F9DF3255BE0C300996D92 /* ColorName.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC4F9DF2255BE0C300996D92 /* ColorName.swift */; };
+		FC4F9DF8255C2B2200996D92 /* CustomLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC4F9DF7255C2B2200996D92 /* CustomLabel.swift */; };
+		FC4F9E02255C2EC000996D92 /* CustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC4F9E01255C2EC000996D92 /* CustomButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,6 +43,9 @@
 		FC4F9DC7255B9A9200996D92 /* Poppins-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Light.ttf"; sourceTree = "<group>"; };
 		FC4F9DCA255B9AD800996D92 /* Poppins-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Medium.ttf"; sourceTree = "<group>"; };
 		FC4F9DCF255B9C5C00996D92 /* FontName.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontName.swift; sourceTree = "<group>"; };
+		FC4F9DF2255BE0C300996D92 /* ColorName.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorName.swift; sourceTree = "<group>"; };
+		FC4F9DF7255C2B2200996D92 /* CustomLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomLabel.swift; sourceTree = "<group>"; };
+		FC4F9E01255C2EC000996D92 /* CustomButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +100,7 @@
 			children = (
 				FC4F9DAE255B8F2E00996D92 /* App */,
 				FC4F9DAD255B8F0700996D92 /* Module */,
+				FC4F9DF6255C2B0200996D92 /* CustomComponents */,
 				FC4F9DCE255B9C2D00996D92 /* Constants */,
 				FC4F9DB3255B914700996D92 /* SupportFiles */,
 			);
@@ -103,6 +110,7 @@
 		FC4F9DAD255B8F0700996D92 /* Module */ = {
 			isa = PBXGroup;
 			children = (
+				FC4F9D9D255B8E4600996D92 /* Main.storyboard */,
 				FC4F9DB0255B8F7400996D92 /* Welcome */,
 			);
 			path = Module;
@@ -121,7 +129,6 @@
 			isa = PBXGroup;
 			children = (
 				FC4F9D9B255B8E4600996D92 /* WelcomeViewController.swift */,
-				FC4F9D9D255B8E4600996D92 /* Main.storyboard */,
 			);
 			path = Welcome;
 			sourceTree = "<group>";
@@ -153,8 +160,18 @@
 			isa = PBXGroup;
 			children = (
 				FC4F9DCF255B9C5C00996D92 /* FontName.swift */,
+				FC4F9DF2255BE0C300996D92 /* ColorName.swift */,
 			);
 			path = Constants;
+			sourceTree = "<group>";
+		};
+		FC4F9DF6255C2B0200996D92 /* CustomComponents */ = {
+			isa = PBXGroup;
+			children = (
+				FC4F9DF7255C2B2200996D92 /* CustomLabel.swift */,
+				FC4F9E01255C2EC000996D92 /* CustomButton.swift */,
+			);
+			path = CustomComponents;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -279,7 +296,10 @@
 				FC4F9D9C255B8E4600996D92 /* WelcomeViewController.swift in Sources */,
 				FC4F9DD0255B9C5C00996D92 /* FontName.swift in Sources */,
 				FC4F9D98255B8E4600996D92 /* AppDelegate.swift in Sources */,
+				FC4F9DF3255BE0C300996D92 /* ColorName.swift in Sources */,
+				FC4F9E02255C2EC000996D92 /* CustomButton.swift in Sources */,
 				FC4F9D9A255B8E4600996D92 /* SceneDelegate.swift in Sources */,
+				FC4F9DF8255C2B2200996D92 /* CustomLabel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
