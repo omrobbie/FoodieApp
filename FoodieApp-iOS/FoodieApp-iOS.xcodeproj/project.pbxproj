@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		FC4F9D98255B8E4600996D92 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC4F9D97255B8E4600996D92 /* AppDelegate.swift */; };
 		FC4F9D9A255B8E4600996D92 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC4F9D99255B8E4600996D92 /* SceneDelegate.swift */; };
-		FC4F9D9C255B8E4600996D92 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC4F9D9B255B8E4600996D92 /* ViewController.swift */; };
+		FC4F9D9C255B8E4600996D92 /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC4F9D9B255B8E4600996D92 /* WelcomeViewController.swift */; };
 		FC4F9D9F255B8E4600996D92 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC4F9D9D255B8E4600996D92 /* Main.storyboard */; };
 		FC4F9DA1255B8E4700996D92 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FC4F9DA0255B8E4700996D92 /* Assets.xcassets */; };
 		FC4F9DA4255B8E4700996D92 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC4F9DA2255B8E4700996D92 /* LaunchScreen.storyboard */; };
@@ -19,7 +19,7 @@
 		FC4F9D94255B8E4600996D92 /* FoodieApp-iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "FoodieApp-iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FC4F9D97255B8E4600996D92 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FC4F9D99255B8E4600996D92 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		FC4F9D9B255B8E4600996D92 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FC4F9D9B255B8E4600996D92 /* WelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
 		FC4F9D9E255B8E4600996D92 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		FC4F9DA0255B8E4700996D92 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FC4F9DA3255B8E4700996D92 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -56,15 +56,47 @@
 		FC4F9D96255B8E4600996D92 /* FoodieApp-iOS */ = {
 			isa = PBXGroup;
 			children = (
+				FC4F9DAE255B8F2E00996D92 /* App */,
+				FC4F9DAD255B8F0700996D92 /* Module */,
+				FC4F9DB3255B914700996D92 /* SupportFiles */,
+			);
+			path = "FoodieApp-iOS";
+			sourceTree = "<group>";
+		};
+		FC4F9DAD255B8F0700996D92 /* Module */ = {
+			isa = PBXGroup;
+			children = (
+				FC4F9DB0255B8F7400996D92 /* Welcome */,
+			);
+			path = Module;
+			sourceTree = "<group>";
+		};
+		FC4F9DAE255B8F2E00996D92 /* App */ = {
+			isa = PBXGroup;
+			children = (
 				FC4F9D97255B8E4600996D92 /* AppDelegate.swift */,
 				FC4F9D99255B8E4600996D92 /* SceneDelegate.swift */,
-				FC4F9D9B255B8E4600996D92 /* ViewController.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		FC4F9DB0255B8F7400996D92 /* Welcome */ = {
+			isa = PBXGroup;
+			children = (
+				FC4F9D9B255B8E4600996D92 /* WelcomeViewController.swift */,
 				FC4F9D9D255B8E4600996D92 /* Main.storyboard */,
+			);
+			path = Welcome;
+			sourceTree = "<group>";
+		};
+		FC4F9DB3255B914700996D92 /* SupportFiles */ = {
+			isa = PBXGroup;
+			children = (
 				FC4F9DA0255B8E4700996D92 /* Assets.xcassets */,
 				FC4F9DA2255B8E4700996D92 /* LaunchScreen.storyboard */,
 				FC4F9DA5255B8E4700996D92 /* Info.plist */,
 			);
-			path = "FoodieApp-iOS";
+			path = SupportFiles;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,7 +169,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FC4F9D9C255B8E4600996D92 /* ViewController.swift in Sources */,
+				FC4F9D9C255B8E4600996D92 /* WelcomeViewController.swift in Sources */,
 				FC4F9D98255B8E4600996D92 /* AppDelegate.swift in Sources */,
 				FC4F9D9A255B8E4600996D92 /* SceneDelegate.swift in Sources */,
 			);
@@ -287,7 +319,8 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = "FoodieApp-iOS/Info.plist";
+				INFOPLIST_FILE = "FoodieApp-iOS/SupportFiles/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -295,7 +328,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.omrobbie.FoodieApp-iOS";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -305,7 +338,8 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = "FoodieApp-iOS/Info.plist";
+				INFOPLIST_FILE = "FoodieApp-iOS/SupportFiles/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -313,7 +347,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.omrobbie.FoodieApp-iOS";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
