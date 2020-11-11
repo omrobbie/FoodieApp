@@ -12,4 +12,11 @@ class WelcomeViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
     }
+
+    @IBAction func btnCreateAccountTapped(_ sender: Any) {
+        let createAccountVC = CreateAccountViewController()
+
+        createAccountVC.modalPresentationStyle = .fullScreen
+        present(createAccountVC, animated: true)
+    }
 }

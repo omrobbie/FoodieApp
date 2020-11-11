@@ -30,6 +30,8 @@ class CustomButton: UIButton {
     }
 
     private func setupUI() {
+        titleLabel?.font = UIFont(name: FontPoppins.semiBold, size: 18)
+        heightAnchor.constraint(equalToConstant: 56).isActive = true
         layer.cornerRadius = 5.0
 
         if borderOnly {

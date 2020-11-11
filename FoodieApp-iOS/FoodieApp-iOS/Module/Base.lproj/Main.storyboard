@@ -29,7 +29,7 @@
                                 </constraints>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="05c-yX-Iwm" customClass="CustomLabel" customModule="FoodieApp_iOS" customModuleProvider="target">
-                                <rect key="frame" x="28" y="468.00000000000006" width="358" height="89.666666666666686"/>
+                                <rect key="frame" x="28" y="468" width="358" height="74.666666666666629"/>
                                 <fontDescription key="fontDescription" name="Poppins-SemiBold" family="Poppins" pointSize="32"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -43,22 +43,19 @@ Welcome to Foodie</string>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Z9b-9k-Uvy" customClass="CustomButton" customModule="FoodieApp_iOS" customModuleProvider="target">
                                 <rect key="frame" x="28" y="699" width="358" height="56"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="56" id="jNV-sN-AAN"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" name="Poppins-SemiBold" family="Poppins" pointSize="18"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <state key="normal" title="Log in"/>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dDc-n0-2ur" customClass="CustomButton" customModule="FoodieApp_iOS" customModuleProvider="target">
                                 <rect key="frame" x="28" y="778" width="358" height="56"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="56" id="pSi-vp-5F0"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" name="Poppins-SemiBold" family="Poppins" pointSize="18"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <state key="normal" title="Create an account"/>
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute type="boolean" keyPath="borderOnly" value="YES"/>
                                 </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="btnCreateAccountTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ONj-Vq-cDs"/>
+                                </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
@@ -78,21 +75,22 @@ Welcome to Foodie</string>
                             <constraint firstItem="0s8-QB-wgq" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="xcL-Ac-PeJ"/>
                         </constraints>
                     </view>
+                    <navigationItem key="navigationItem" id="WF3-Th-Bhn"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="140.57971014492756" y="108.48214285714285"/>
+            <point key="canvasLocation" x="1050.7246376811595" y="108.48214285714285"/>
         </scene>
     </scenes>
     <designables>
         <designable name="05c-yX-Iwm">
-            <size key="intrinsicContentSize" width="310.66666666666669" height="89.666666666666671"/>
+            <size key="intrinsicContentSize" width="277" height="74.666666666666671"/>
         </designable>
         <designable name="Z9b-9k-Uvy">
-            <size key="intrinsicContentSize" width="54" height="38"/>
+            <size key="intrinsicContentSize" width="46" height="33"/>
         </designable>
         <designable name="dDc-n0-2ur">
-            <size key="intrinsicContentSize" width="172" height="38"/>
+            <size key="intrinsicContentSize" width="140" height="33"/>
         </designable>
     </designables>
     <resources>
