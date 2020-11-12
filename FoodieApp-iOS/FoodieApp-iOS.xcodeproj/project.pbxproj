@@ -25,6 +25,8 @@
 		FC4F9E02255C2EC000996D92 /* CustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC4F9E01255C2EC000996D92 /* CustomButton.swift */; };
 		FCBF666D255D116900E86744 /* IconName.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCBF666C255D116900E86744 /* IconName.swift */; };
 		FCBF6671255D124800E86744 /* UITextField+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCBF6670255D124800E86744 /* UITextField+Extension.swift */; };
+		FCBF6675255D174100E86744 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCBF6673255D174100E86744 /* LoginViewController.swift */; };
+		FCBF6676255D174100E86744 /* LoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FCBF6674255D174100E86744 /* LoginViewController.xib */; };
 		FCD228B2255CA49900FDCB5A /* CreateAccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCD228B0255CA49900FDCB5A /* CreateAccountViewController.swift */; };
 		FCD228B3255CA49900FDCB5A /* CreateAccountViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FCD228B1255CA49900FDCB5A /* CreateAccountViewController.xib */; };
 		FCD228B7255CA99500FDCB5A /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCD228B6255CA99500FDCB5A /* CustomTextField.swift */; };
@@ -53,6 +55,8 @@
 		FC4F9E01255C2EC000996D92 /* CustomButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButton.swift; sourceTree = "<group>"; };
 		FCBF666C255D116900E86744 /* IconName.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IconName.swift; sourceTree = "<group>"; };
 		FCBF6670255D124800E86744 /* UITextField+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITextField+Extension.swift"; sourceTree = "<group>"; };
+		FCBF6673255D174100E86744 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		FCBF6674255D174100E86744 /* LoginViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LoginViewController.xib; sourceTree = "<group>"; };
 		FCD228B0255CA49900FDCB5A /* CreateAccountViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateAccountViewController.swift; sourceTree = "<group>"; };
 		FCD228B1255CA49900FDCB5A /* CreateAccountViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CreateAccountViewController.xib; sourceTree = "<group>"; };
 		FCD228B6255CA99500FDCB5A /* CustomTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
@@ -124,6 +128,7 @@
 			children = (
 				FC4F9D9D255B8E4600996D92 /* Main.storyboard */,
 				FC4F9DB0255B8F7400996D92 /* Welcome */,
+				FCBF6678255D174600E86744 /* Login */,
 				FCD228AF255CA45200FDCB5A /* CreateAccount */,
 			);
 			path = Module;
@@ -194,6 +199,15 @@
 				FCBF6670255D124800E86744 /* UITextField+Extension.swift */,
 			);
 			path = Extensions;
+			sourceTree = "<group>";
+		};
+		FCBF6678255D174600E86744 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				FCBF6673255D174100E86744 /* LoginViewController.swift */,
+				FCBF6674255D174100E86744 /* LoginViewController.xib */,
+			);
+			path = Login;
 			sourceTree = "<group>";
 		};
 		FCD228AF255CA45200FDCB5A /* CreateAccount */ = {
@@ -267,6 +281,7 @@
 			files = (
 				FC3161F5255CB71600D3ED8E /* .swiftlint.yml in Resources */,
 				FC4F9DC8255B9A9200996D92 /* Poppins-Light.ttf in Resources */,
+				FCBF6676255D174100E86744 /* LoginViewController.xib in Resources */,
 				FC4F9DC2255B9A1900996D92 /* Poppins-SemiBold.ttf in Resources */,
 				FC4F9DC5255B9A6900996D92 /* Poppins-Bold.ttf in Resources */,
 				FC4F9DA4255B8E4700996D92 /* LaunchScreen.storyboard in Resources */,
@@ -354,6 +369,7 @@
 				FC4F9E02255C2EC000996D92 /* CustomButton.swift in Sources */,
 				FC4F9DF8255C2B2200996D92 /* CustomLabel.swift in Sources */,
 				FCD228B7255CA99500FDCB5A /* CustomTextField.swift in Sources */,
+				FCBF6675255D174100E86744 /* LoginViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

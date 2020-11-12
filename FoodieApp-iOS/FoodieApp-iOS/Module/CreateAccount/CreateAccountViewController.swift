@@ -15,8 +15,8 @@ class CreateAccountViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        setupCountryPickerView()
         txtPassword.enablePasswordToggle()
+        setupCountryPickerView()
     }
 
     private func setupCountryPickerView() {

@@ -13,6 +13,13 @@ class WelcomeViewController: UIViewController {
         super.viewDidLoad()
     }
 
+    @IBAction func btnLoginTapped(_ sender: Any) {
+        let loginVC = LoginViewController()
+
+        loginVC.modalPresentationStyle = .fullScreen
+        present(loginVC, animated: true)
+    }
+
     @IBAction func btnCreateAccountTapped(_ sender: Any) {
         let createAccountVC = CreateAccountViewController()
 
