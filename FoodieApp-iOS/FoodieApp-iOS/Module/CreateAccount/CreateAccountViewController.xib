@@ -19,6 +19,7 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="CreateAccountViewController" customModule="FoodieApp_iOS" customModuleProvider="target">
             <connections>
+                <outlet property="txtPhoneCode" destination="QxO-Aa-ZLW" id="u3j-XU-DCd"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
             </connections>
         </placeholder>
@@ -90,7 +91,7 @@
                     <nil key="highlightedColor"/>
                 </label>
                 <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="phone number" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="rwL-xS-5cY" customClass="CustomTextField" customModule="FoodieApp_iOS" customModuleProvider="target">
-                    <rect key="frame" x="28" y="588.5" width="358" height="49"/>
+                    <rect key="frame" x="168" y="588.5" width="218" height="49"/>
                     <fontDescription key="fontDescription" type="system" pointSize="16"/>
                     <textInputTraits key="textInputTraits"/>
                 </textField>
@@ -98,6 +99,14 @@
                     <rect key="frame" x="28" y="778" width="358" height="56"/>
                     <state key="normal" title="Create an account"/>
                 </button>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="QxO-Aa-ZLW" customClass="CountryPickerView" customModule="CountryPickerView">
+                    <rect key="frame" x="28" y="588.5" width="130" height="49"/>
+                    <color key="backgroundColor" red="0.94509803921568625" green="0.96078431372549022" blue="0.97647058823529409" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="49" id="5rD-Ek-e2X"/>
+                        <constraint firstAttribute="width" constant="130" id="pOd-6a-3wL"/>
+                    </constraints>
+                </view>
             </subviews>
             <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
             <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -113,7 +122,6 @@
                 <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="uwF-JH-QvU" secondAttribute="trailing" constant="28" id="L5v-dV-4ia"/>
                 <constraint firstItem="erA-Ld-qKf" firstAttribute="top" secondItem="uwF-JH-QvU" secondAttribute="bottom" constant="11" id="MtT-iD-DQy"/>
                 <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="erA-Ld-qKf" secondAttribute="trailing" constant="28" id="O7M-b1-I6q"/>
-                <constraint firstItem="rwL-xS-5cY" firstAttribute="top" secondItem="njl-83-hGZ" secondAttribute="bottom" constant="11" id="Pkb-hS-bDA"/>
                 <constraint firstItem="uwF-JH-QvU" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="28" id="Q2c-ib-yh0"/>
                 <constraint firstItem="zfe-PH-UWX" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="28" id="RFz-t1-ghk"/>
                 <constraint firstItem="erA-Ld-qKf" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="28" id="TUf-7b-oig"/>
@@ -122,21 +130,24 @@
                 <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="btP-Tn-Hbh" secondAttribute="trailing" constant="28" id="UlF-G8-tpb"/>
                 <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="RTl-t6-9f0" secondAttribute="trailing" constant="28" id="Z8H-oU-xwM"/>
                 <constraint firstItem="zfe-PH-UWX" firstAttribute="top" secondItem="btP-Tn-Hbh" secondAttribute="bottom" constant="5" id="Zu4-AT-eH2"/>
+                <constraint firstItem="rwL-xS-5cY" firstAttribute="leading" secondItem="QxO-Aa-ZLW" secondAttribute="trailing" constant="10" id="a40-No-n3V"/>
                 <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="Get-mS-j6G" secondAttribute="trailing" constant="28" id="b1m-4O-Au6"/>
-                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="rwL-xS-5cY" secondAttribute="trailing" constant="28" id="cT5-e8-dL4"/>
                 <constraint firstItem="uyC-Kf-QvS" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="28" id="cTE-2S-PYF"/>
                 <constraint firstItem="RTl-t6-9f0" firstAttribute="top" secondItem="Get-mS-j6G" secondAttribute="bottom" constant="11" id="cvO-cS-I2T"/>
                 <constraint firstItem="btP-Tn-Hbh" firstAttribute="top" secondItem="uyC-Kf-QvS" secondAttribute="bottom" constant="23" id="eIn-YZ-DOc"/>
                 <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="zfe-PH-UWX" secondAttribute="trailing" constant="28" id="fQc-FH-LCh"/>
                 <constraint firstItem="uwF-JH-QvU" firstAttribute="top" secondItem="RTl-t6-9f0" secondAttribute="bottom" constant="23" id="fV1-pO-abX"/>
+                <constraint firstItem="QxO-Aa-ZLW" firstAttribute="top" secondItem="njl-83-hGZ" secondAttribute="bottom" constant="11" id="gP8-98-e1l"/>
                 <constraint firstItem="uyC-Kf-QvS" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" constant="28" id="ikr-yW-ofD"/>
                 <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="VF9-Lk-JkN" secondAttribute="trailing" constant="28" id="kQj-41-ImL"/>
+                <constraint firstItem="rwL-xS-5cY" firstAttribute="centerY" secondItem="QxO-Aa-ZLW" secondAttribute="centerY" id="l6n-Wi-job"/>
                 <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="njl-83-hGZ" secondAttribute="trailing" constant="28" id="lIN-Rl-fJq"/>
                 <constraint firstItem="Get-mS-j6G" firstAttribute="top" secondItem="zfe-PH-UWX" secondAttribute="bottom" constant="61" id="ref-Z2-gRb"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="rwL-xS-5cY" secondAttribute="trailing" constant="28" id="s1s-lT-CWX"/>
                 <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="rYI-uu-blo" secondAttribute="trailing" constant="28" id="sLG-nN-TsH"/>
+                <constraint firstItem="QxO-Aa-ZLW" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="28" id="tGv-CM-Lah"/>
                 <constraint firstItem="rYI-uu-blo" firstAttribute="top" secondItem="erA-Ld-qKf" secondAttribute="bottom" constant="23" id="vb2-TG-F36"/>
                 <constraint firstItem="VtK-RO-spw" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="28" id="yEh-tA-eMu"/>
-                <constraint firstItem="rwL-xS-5cY" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="28" id="zvN-wd-RUM"/>
             </constraints>
             <point key="canvasLocation" x="-220.28985507246378" y="95.758928571428569"/>
         </view>

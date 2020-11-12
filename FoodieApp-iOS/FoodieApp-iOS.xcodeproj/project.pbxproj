@@ -3,13 +3,13 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		620974E8FC48CF3477F15C97 /* Pods_FoodieApp_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 99E550BDCDC61DF844E1E5E0 /* Pods_FoodieApp_iOS.framework */; };
+		FC3161F5255CB71600D3ED8E /* .swiftlint.yml in Resources */ = {isa = PBXBuildFile; fileRef = FC3161F4255CB71600D3ED8E /* .swiftlint.yml */; };
 		FC4F9D98255B8E4600996D92 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC4F9D97255B8E4600996D92 /* AppDelegate.swift */; };
-		FC4F9D9A255B8E4600996D92 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC4F9D99255B8E4600996D92 /* SceneDelegate.swift */; };
 		FC4F9D9C255B8E4600996D92 /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC4F9D9B255B8E4600996D92 /* WelcomeViewController.swift */; };
 		FC4F9D9F255B8E4600996D92 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC4F9D9D255B8E4600996D92 /* Main.storyboard */; };
 		FC4F9DA1255B8E4700996D92 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FC4F9DA0255B8E4700996D92 /* Assets.xcassets */; };
@@ -32,9 +32,9 @@
 		4D9311C04ED10998244071E3 /* Pods-FoodieApp-iOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FoodieApp-iOS.debug.xcconfig"; path = "Target Support Files/Pods-FoodieApp-iOS/Pods-FoodieApp-iOS.debug.xcconfig"; sourceTree = "<group>"; };
 		99E550BDCDC61DF844E1E5E0 /* Pods_FoodieApp_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FoodieApp_iOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A5F4C1B4CFFD9275148D0FDD /* Pods-FoodieApp-iOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FoodieApp-iOS.release.xcconfig"; path = "Target Support Files/Pods-FoodieApp-iOS/Pods-FoodieApp-iOS.release.xcconfig"; sourceTree = "<group>"; };
+		FC3161F4255CB71600D3ED8E /* .swiftlint.yml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.yaml; path = .swiftlint.yml; sourceTree = SOURCE_ROOT; };
 		FC4F9D94255B8E4600996D92 /* FoodieApp-iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "FoodieApp-iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FC4F9D97255B8E4600996D92 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		FC4F9D99255B8E4600996D92 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		FC4F9D9B255B8E4600996D92 /* WelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
 		FC4F9D9E255B8E4600996D92 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		FC4F9DA0255B8E4700996D92 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -104,6 +104,7 @@
 		FC4F9D96255B8E4600996D92 /* FoodieApp-iOS */ = {
 			isa = PBXGroup;
 			children = (
+				FC3161F4255CB71600D3ED8E /* .swiftlint.yml */,
 				FC4F9DAE255B8F2E00996D92 /* App */,
 				FC4F9DAD255B8F0700996D92 /* Module */,
 				FC4F9DF6255C2B0200996D92 /* CustomComponents */,
@@ -127,7 +128,6 @@
 			isa = PBXGroup;
 			children = (
 				FC4F9D97255B8E4600996D92 /* AppDelegate.swift */,
-				FC4F9D99255B8E4600996D92 /* SceneDelegate.swift */,
 			);
 			path = App;
 			sourceTree = "<group>";
@@ -203,6 +203,7 @@
 				FC4F9D91255B8E4600996D92 /* Frameworks */,
 				FC4F9D92255B8E4600996D92 /* Resources */,
 				FC4F9DB9255B985E00996D92 /* ShellScript */,
+				5A4238B297F6A3798BF07860 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -250,6 +251,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FC3161F5255CB71600D3ED8E /* .swiftlint.yml in Resources */,
 				FC4F9DC8255B9A9200996D92 /* Poppins-Light.ttf in Resources */,
 				FC4F9DC2255B9A1900996D92 /* Poppins-SemiBold.ttf in Resources */,
 				FC4F9DC5255B9A6900996D92 /* Poppins-Bold.ttf in Resources */,
@@ -265,6 +267,23 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		5A4238B297F6A3798BF07860 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FoodieApp-iOS/Pods-FoodieApp-iOS-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FoodieApp-iOS/Pods-FoodieApp-iOS-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-FoodieApp-iOS/Pods-FoodieApp-iOS-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		E9F527BDDB478ADC5A50EC23 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -302,7 +321,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "if which ${PODS_ROOT}/SwiftLint/swiftlint >/dev/null; then\n  ${PODS_ROOT}/SwiftLint/swiftlint\nelse\n  echo \"warning: SwiftLint not installed, download from https://github.com/realm/SwiftLint\"\nfi\n";
+			shellScript = "if which ${PODS_ROOT}/SwiftLint/swiftlint >/dev/null; then\n  ${PODS_ROOT}/SwiftLint/swiftlint lint --config .swiftlint.yml\nelse\n  echo \"warning: SwiftLint not installed, download from https://github.com/realm/SwiftLint\"\nfi\n";
 		};
 /* End PBXShellScriptBuildPhase section */
 
@@ -317,7 +336,6 @@
 				FC4F9DF3255BE0C300996D92 /* ColorName.swift in Sources */,
 				FCD228B2255CA49900FDCB5A /* CreateAccountViewController.swift in Sources */,
 				FC4F9E02255C2EC000996D92 /* CustomButton.swift in Sources */,
-				FC4F9D9A255B8E4600996D92 /* SceneDelegate.swift in Sources */,
 				FC4F9DF8255C2B2200996D92 /* CustomLabel.swift in Sources */,
 				FCD228B7255CA99500FDCB5A /* CustomTextField.swift in Sources */,
 			);
@@ -469,7 +487,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = "FoodieApp-iOS/SupportFiles/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -489,7 +507,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = "FoodieApp-iOS/SupportFiles/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

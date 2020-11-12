@@ -1,16 +1,20 @@
 PODS:
+  - CountryPickerView (3.1.3)
   - SwiftLint (0.41.0)
 
 DEPENDENCIES:
+  - CountryPickerView
   - SwiftLint
 
 SPEC REPOS:
   trunk:
+    - CountryPickerView
     - SwiftLint
 
 SPEC CHECKSUMS:
+  CountryPickerView: 383c09949f7455de9892db7ce3400b10da090150
   SwiftLint: c585ebd615d9520d7fbdbe151f527977b0534f1e
 
-PODFILE CHECKSUM: 1999eb62770daeac6cbf70adb3cbbc227cb0dbd0
+PODFILE CHECKSUM: c96e3a6f65df3f68cd4a07cc17b725e746125a32
 
 COCOAPODS: 1.8.4

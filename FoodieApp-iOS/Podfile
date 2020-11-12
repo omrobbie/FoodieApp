@@ -7,5 +7,6 @@ target 'FoodieApp-iOS' do
 
   # Pods for FoodieApp-iOS
   pod 'SwiftLint'
+  pod 'CountryPickerView'
 
 end
