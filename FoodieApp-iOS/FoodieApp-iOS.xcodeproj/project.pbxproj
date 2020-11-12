@@ -23,6 +23,8 @@
 		FC4F9DF3255BE0C300996D92 /* ColorName.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC4F9DF2255BE0C300996D92 /* ColorName.swift */; };
 		FC4F9DF8255C2B2200996D92 /* CustomLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC4F9DF7255C2B2200996D92 /* CustomLabel.swift */; };
 		FC4F9E02255C2EC000996D92 /* CustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC4F9E01255C2EC000996D92 /* CustomButton.swift */; };
+		FCBF666D255D116900E86744 /* IconName.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCBF666C255D116900E86744 /* IconName.swift */; };
+		FCBF6671255D124800E86744 /* UITextField+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCBF6670255D124800E86744 /* UITextField+Extension.swift */; };
 		FCD228B2255CA49900FDCB5A /* CreateAccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCD228B0255CA49900FDCB5A /* CreateAccountViewController.swift */; };
 		FCD228B3255CA49900FDCB5A /* CreateAccountViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FCD228B1255CA49900FDCB5A /* CreateAccountViewController.xib */; };
 		FCD228B7255CA99500FDCB5A /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCD228B6255CA99500FDCB5A /* CustomTextField.swift */; };
@@ -49,6 +51,8 @@
 		FC4F9DF2255BE0C300996D92 /* ColorName.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorName.swift; sourceTree = "<group>"; };
 		FC4F9DF7255C2B2200996D92 /* CustomLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomLabel.swift; sourceTree = "<group>"; };
 		FC4F9E01255C2EC000996D92 /* CustomButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButton.swift; sourceTree = "<group>"; };
+		FCBF666C255D116900E86744 /* IconName.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IconName.swift; sourceTree = "<group>"; };
+		FCBF6670255D124800E86744 /* UITextField+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITextField+Extension.swift"; sourceTree = "<group>"; };
 		FCD228B0255CA49900FDCB5A /* CreateAccountViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateAccountViewController.swift; sourceTree = "<group>"; };
 		FCD228B1255CA49900FDCB5A /* CreateAccountViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CreateAccountViewController.xib; sourceTree = "<group>"; };
 		FCD228B6255CA99500FDCB5A /* CustomTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
@@ -107,6 +111,7 @@
 				FC3161F4255CB71600D3ED8E /* .swiftlint.yml */,
 				FC4F9DAE255B8F2E00996D92 /* App */,
 				FC4F9DAD255B8F0700996D92 /* Module */,
+				FCBF666F255D122B00E86744 /* Extensions */,
 				FC4F9DF6255C2B0200996D92 /* CustomComponents */,
 				FC4F9DCE255B9C2D00996D92 /* Constants */,
 				FC4F9DB3255B914700996D92 /* SupportFiles */,
@@ -168,6 +173,7 @@
 			children = (
 				FC4F9DCF255B9C5C00996D92 /* FontName.swift */,
 				FC4F9DF2255BE0C300996D92 /* ColorName.swift */,
+				FCBF666C255D116900E86744 /* IconName.swift */,
 			);
 			path = Constants;
 			sourceTree = "<group>";
@@ -180,6 +186,14 @@
 				FCD228B6255CA99500FDCB5A /* CustomTextField.swift */,
 			);
 			path = CustomComponents;
+			sourceTree = "<group>";
+		};
+		FCBF666F255D122B00E86744 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				FCBF6670255D124800E86744 /* UITextField+Extension.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 		FCD228AF255CA45200FDCB5A /* CreateAccount */ = {
@@ -332,8 +346,10 @@
 			files = (
 				FC4F9D9C255B8E4600996D92 /* WelcomeViewController.swift in Sources */,
 				FC4F9DD0255B9C5C00996D92 /* FontName.swift in Sources */,
+				FCBF666D255D116900E86744 /* IconName.swift in Sources */,
 				FC4F9D98255B8E4600996D92 /* AppDelegate.swift in Sources */,
 				FC4F9DF3255BE0C300996D92 /* ColorName.swift in Sources */,
+				FCBF6671255D124800E86744 /* UITextField+Extension.swift in Sources */,
 				FCD228B2255CA49900FDCB5A /* CreateAccountViewController.swift in Sources */,
 				FC4F9E02255C2EC000996D92 /* CustomButton.swift in Sources */,
 				FC4F9DF8255C2B2200996D92 /* CustomLabel.swift in Sources */,

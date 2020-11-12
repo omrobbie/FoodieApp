@@ -19,6 +19,7 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="CreateAccountViewController" customModule="FoodieApp_iOS" customModuleProvider="target">
             <connections>
+                <outlet property="txtPassword" destination="VtK-RO-spw" id="g93-ey-8YD"/>
                 <outlet property="txtPhoneCode" destination="QxO-Aa-ZLW" id="u3j-XU-DCd"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
             </connections>

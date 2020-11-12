@@ -10,11 +10,13 @@ import CountryPickerView
 
 class CreateAccountViewController: UIViewController {
 
+    @IBOutlet weak var txtPassword: CustomTextField!
     @IBOutlet weak var txtPhoneCode: CountryPickerView!
 
     override func viewDidLoad() {
         super.viewDidLoad()
         setupCountryPickerView()
+        txtPassword.enablePasswordToggle()
     }
 
     private func setupCountryPickerView() {
