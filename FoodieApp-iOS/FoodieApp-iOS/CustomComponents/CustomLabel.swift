@@ -38,6 +38,7 @@ class CustomLabel: UILabel {
             range: range
         )
 
+        font = UIFont(name: FontPoppins.semiBold, size: 32)
         attributedText = mutableAttributedString
     }
 }
