@@ -27,6 +27,8 @@
 		FCBF6671255D124800E86744 /* UITextField+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCBF6670255D124800E86744 /* UITextField+Extension.swift */; };
 		FCBF6675255D174100E86744 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCBF6673255D174100E86744 /* LoginViewController.swift */; };
 		FCBF6676255D174100E86744 /* LoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FCBF6674255D174100E86744 /* LoginViewController.xib */; };
+		FCBF667E255D1A8700E86744 /* CheckEmailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCBF667C255D1A8700E86744 /* CheckEmailViewController.swift */; };
+		FCBF667F255D1A8700E86744 /* CheckEmailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FCBF667D255D1A8700E86744 /* CheckEmailViewController.xib */; };
 		FCD228B2255CA49900FDCB5A /* CreateAccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCD228B0255CA49900FDCB5A /* CreateAccountViewController.swift */; };
 		FCD228B3255CA49900FDCB5A /* CreateAccountViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FCD228B1255CA49900FDCB5A /* CreateAccountViewController.xib */; };
 		FCD228B7255CA99500FDCB5A /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCD228B6255CA99500FDCB5A /* CustomTextField.swift */; };
@@ -57,6 +59,8 @@
 		FCBF6670255D124800E86744 /* UITextField+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITextField+Extension.swift"; sourceTree = "<group>"; };
 		FCBF6673255D174100E86744 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		FCBF6674255D174100E86744 /* LoginViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LoginViewController.xib; sourceTree = "<group>"; };
+		FCBF667C255D1A8700E86744 /* CheckEmailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckEmailViewController.swift; sourceTree = "<group>"; };
+		FCBF667D255D1A8700E86744 /* CheckEmailViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CheckEmailViewController.xib; sourceTree = "<group>"; };
 		FCD228B0255CA49900FDCB5A /* CreateAccountViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateAccountViewController.swift; sourceTree = "<group>"; };
 		FCD228B1255CA49900FDCB5A /* CreateAccountViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CreateAccountViewController.xib; sourceTree = "<group>"; };
 		FCD228B6255CA99500FDCB5A /* CustomTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
@@ -130,6 +134,7 @@
 				FC4F9DB0255B8F7400996D92 /* Welcome */,
 				FCBF6678255D174600E86744 /* Login */,
 				FCD228AF255CA45200FDCB5A /* CreateAccount */,
+				FCBF6681255D1A9500E86744 /* CheckEmail */,
 			);
 			path = Module;
 			sourceTree = "<group>";
@@ -208,6 +213,15 @@
 				FCBF6674255D174100E86744 /* LoginViewController.xib */,
 			);
 			path = Login;
+			sourceTree = "<group>";
+		};
+		FCBF6681255D1A9500E86744 /* CheckEmail */ = {
+			isa = PBXGroup;
+			children = (
+				FCBF667C255D1A8700E86744 /* CheckEmailViewController.swift */,
+				FCBF667D255D1A8700E86744 /* CheckEmailViewController.xib */,
+			);
+			path = CheckEmail;
 			sourceTree = "<group>";
 		};
 		FCD228AF255CA45200FDCB5A /* CreateAccount */ = {
@@ -289,6 +303,7 @@
 				FC4F9DCB255B9AD800996D92 /* Poppins-Medium.ttf in Resources */,
 				FC4F9D9F255B8E4600996D92 /* Main.storyboard in Resources */,
 				FC4F9DBF255B99A900996D92 /* Poppins-Regular.ttf in Resources */,
+				FCBF667F255D1A8700E86744 /* CheckEmailViewController.xib in Resources */,
 				FCD228B3255CA49900FDCB5A /* CreateAccountViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -365,6 +380,7 @@
 				FC4F9D98255B8E4600996D92 /* AppDelegate.swift in Sources */,
 				FC4F9DF3255BE0C300996D92 /* ColorName.swift in Sources */,
 				FCBF6671255D124800E86744 /* UITextField+Extension.swift in Sources */,
+				FCBF667E255D1A8700E86744 /* CheckEmailViewController.swift in Sources */,
 				FCD228B2255CA49900FDCB5A /* CreateAccountViewController.swift in Sources */,
 				FC4F9E02255C2EC000996D92 /* CustomButton.swift in Sources */,
 				FC4F9DF8255C2B2200996D92 /* CustomLabel.swift in Sources */,

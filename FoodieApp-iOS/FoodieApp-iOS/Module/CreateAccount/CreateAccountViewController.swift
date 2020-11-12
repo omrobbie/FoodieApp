@@ -42,6 +42,13 @@ class CreateAccountViewController: UIViewController {
     @IBAction func btnBackTapped(_ sender: Any) {
         dismiss(animated: true)
     }
+
+    @IBAction func btnCreateAccountTapped(_ sender: Any) {
+        let checkEmailVC = CheckEmailViewController()
+
+        checkEmailVC.modalPresentationStyle = .fullScreen
+        present(checkEmailVC, animated: true)
+    }
 }
 
 extension CreateAccountViewController: CountryPickerViewDelegate, CountryPickerViewDataSource {
