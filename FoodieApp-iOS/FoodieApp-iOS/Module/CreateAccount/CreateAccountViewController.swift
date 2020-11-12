@@ -23,7 +23,18 @@ class CreateAccountViewController: UIViewController {
         txtPhoneCode.showCountryCodeInView = false
         txtPhoneCode.layer.cornerRadius = 5
         txtPhoneCode.backgroundColor = Color.textField
-        txtPhoneCode.bounds = CGRect().inset(by: UIEdgeInsets(top: 0, left: 10, bottom: 0, right: 10))
+        txtPhoneCode.bounds = CGRect().inset(
+            by: UIEdgeInsets(
+                top: 0,
+                left: 10,
+                bottom: 0,
+                right: 10
+            )
+        )
+
+        if #available(iOS 13.0, *) {
+            txtPhoneCode.textColor = .label
+        }
     }
 
     @IBAction func btnBackTapped(_ sender: Any) {
