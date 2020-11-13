@@ -18,8 +18,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         IQKeyboardManager.shared.enable = true
 
-        let homeVC = HomeViewController()
-        window?.rootViewController = homeVC
+        window?.rootViewController = TabBar.viewController()
         window?.makeKeyAndVisible()
 
         return true

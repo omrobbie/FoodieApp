@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		620974E8FC48CF3477F15C97 /* Pods_FoodieApp_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 99E550BDCDC61DF844E1E5E0 /* Pods_FoodieApp_iOS.framework */; };
 		FC3161F5255CB71600D3ED8E /* .swiftlint.yml in Resources */ = {isa = PBXBuildFile; fileRef = FC3161F4255CB71600D3ED8E /* .swiftlint.yml */; };
+		FC3FDF7B255F4F2B00AEF21E /* MainTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC3FDF7A255F4F2B00AEF21E /* MainTabBarViewController.swift */; };
 		FC4F9D98255B8E4600996D92 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC4F9D97255B8E4600996D92 /* AppDelegate.swift */; };
 		FC4F9D9C255B8E4600996D92 /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC4F9D9B255B8E4600996D92 /* WelcomeViewController.swift */; };
 		FC4F9D9F255B8E4600996D92 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC4F9D9D255B8E4600996D92 /* Main.storyboard */; };
@@ -46,6 +47,7 @@
 		99E550BDCDC61DF844E1E5E0 /* Pods_FoodieApp_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FoodieApp_iOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A5F4C1B4CFFD9275148D0FDD /* Pods-FoodieApp-iOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FoodieApp-iOS.release.xcconfig"; path = "Target Support Files/Pods-FoodieApp-iOS/Pods-FoodieApp-iOS.release.xcconfig"; sourceTree = "<group>"; };
 		FC3161F4255CB71600D3ED8E /* .swiftlint.yml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.yaml; path = .swiftlint.yml; sourceTree = SOURCE_ROOT; };
+		FC3FDF7A255F4F2B00AEF21E /* MainTabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarViewController.swift; sourceTree = "<group>"; };
 		FC4F9D94255B8E4600996D92 /* FoodieApp-iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "FoodieApp-iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FC4F9D97255B8E4600996D92 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FC4F9D9B255B8E4600996D92 /* WelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
@@ -109,6 +111,14 @@
 			path = Pods;
 			sourceTree = "<group>";
 		};
+		FC3FDF79255F4EF200AEF21E /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				FC3FDF7A255F4F2B00AEF21E /* MainTabBarViewController.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
 		FC4F9D8B255B8E4600996D92 = {
 			isa = PBXGroup;
 			children = (
@@ -133,6 +143,7 @@
 				FC3161F4255CB71600D3ED8E /* .swiftlint.yml */,
 				FC4F9DAE255B8F2E00996D92 /* App */,
 				FC4F9DAD255B8F0700996D92 /* Module */,
+				FC3FDF79255F4EF200AEF21E /* Helpers */,
 				FCBF666F255D122B00E86744 /* Extensions */,
 				FC4F9DF6255C2B0200996D92 /* CustomComponents */,
 				FC4F9DCE255B9C2D00996D92 /* Constants */,
@@ -408,6 +419,7 @@
 				FC4F9D9C255B8E4600996D92 /* WelcomeViewController.swift in Sources */,
 				FC4F9DD0255B9C5C00996D92 /* FontName.swift in Sources */,
 				FC4FBA24255E239900BD4A1E /* UIView+Extension.swift in Sources */,
+				FC3FDF7B255F4F2B00AEF21E /* MainTabBarViewController.swift in Sources */,
 				FCBF666D255D116900E86744 /* IconName.swift in Sources */,
 				FC4F9D98255B8E4600996D92 /* AppDelegate.swift in Sources */,
 				FC4F9DF3255BE0C300996D92 /* ColorName.swift in Sources */,
