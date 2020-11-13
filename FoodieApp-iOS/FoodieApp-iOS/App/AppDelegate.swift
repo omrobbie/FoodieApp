@@ -17,6 +17,11 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         _ application: UIApplication,
         didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         IQKeyboardManager.shared.enable = true
+
+        let homeVC = HomeViewController()
+        window?.rootViewController = homeVC
+        window?.makeKeyAndVisible()
+
         return true
     }
 }

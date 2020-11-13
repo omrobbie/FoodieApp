@@ -24,7 +24,7 @@
                                 </constraints>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="05c-yX-Iwm" customClass="CustomLabel" customModule="FoodieApp_iOS" customModuleProvider="target">
-                                <rect key="frame" x="28" y="468" width="358" height="40.666666666666686"/>
+                                <rect key="frame" x="28" y="468.00000000000006" width="358" height="89.666666666666686"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -36,8 +36,8 @@ Welcome to Foodie</string>
                                     <userDefinedRuntimeAttribute type="string" keyPath="highlightedText" value="Foodie"/>
                                 </userDefinedRuntimeAttributes>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Z9b-9k-Uvy" customClass="CustomButton" customModule="FoodieApp_iOS" customModuleProvider="target">
-                                <rect key="frame" x="28" y="699" width="358" height="56"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Z9b-9k-Uvy" customClass="CustomButton">
+                                <rect key="frame" x="28" y="745" width="358" height="33"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <state key="normal" title="Log in"/>
                                 <connections>
@@ -45,7 +45,7 @@ Welcome to Foodie</string>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dDc-n0-2ur" customClass="CustomButton" customModule="FoodieApp_iOS" customModuleProvider="target">
-                                <rect key="frame" x="28" y="778" width="358" height="56"/>
+                                <rect key="frame" x="28" y="801" width="358" height="33"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <state key="normal" title="Create an account"/>
                                 <userDefinedRuntimeAttributes>
@@ -82,13 +82,7 @@ Welcome to Foodie</string>
     </scenes>
     <designables>
         <designable name="05c-yX-Iwm">
-            <size key="intrinsicContentSize" width="146.33333333333334" height="40.666666666666664"/>
-        </designable>
-        <designable name="Z9b-9k-Uvy">
-            <size key="intrinsicContentSize" width="46" height="33"/>
-        </designable>
-        <designable name="dDc-n0-2ur">
-            <size key="intrinsicContentSize" width="140" height="33"/>
+            <size key="intrinsicContentSize" width="310.66666666666669" height="89.666666666666671"/>
         </designable>
     </designables>
     <resources>

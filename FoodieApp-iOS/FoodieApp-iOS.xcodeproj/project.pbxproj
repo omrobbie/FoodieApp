@@ -23,6 +23,9 @@
 		FC4F9DF3255BE0C300996D92 /* ColorName.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC4F9DF2255BE0C300996D92 /* ColorName.swift */; };
 		FC4F9DF8255C2B2200996D92 /* CustomLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC4F9DF7255C2B2200996D92 /* CustomLabel.swift */; };
 		FC4F9E02255C2EC000996D92 /* CustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC4F9E01255C2EC000996D92 /* CustomButton.swift */; };
+		FC4FBA24255E239900BD4A1E /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC4FBA23255E239900BD4A1E /* UIView+Extension.swift */; };
+		FC4FBA28255E253600BD4A1E /* HomeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC4FBA26255E253600BD4A1E /* HomeTableViewCell.swift */; };
+		FC4FBA29255E253600BD4A1E /* HomeTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FC4FBA27255E253600BD4A1E /* HomeTableViewCell.xib */; };
 		FCBF666D255D116900E86744 /* IconName.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCBF666C255D116900E86744 /* IconName.swift */; };
 		FCBF6671255D124800E86744 /* UITextField+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCBF6670255D124800E86744 /* UITextField+Extension.swift */; };
 		FCBF6675255D174100E86744 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCBF6673255D174100E86744 /* LoginViewController.swift */; };
@@ -32,6 +35,10 @@
 		FCD228B2255CA49900FDCB5A /* CreateAccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCD228B0255CA49900FDCB5A /* CreateAccountViewController.swift */; };
 		FCD228B3255CA49900FDCB5A /* CreateAccountViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FCD228B1255CA49900FDCB5A /* CreateAccountViewController.xib */; };
 		FCD228B7255CA99500FDCB5A /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCD228B6255CA99500FDCB5A /* CustomTextField.swift */; };
+		FCE2C1DD255D315400BF246A /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCE2C1DB255D315400BF246A /* HomeViewController.swift */; };
+		FCE2C1DE255D315400BF246A /* HomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FCE2C1DC255D315400BF246A /* HomeViewController.xib */; };
+		FCE2C1E4255D9C3E00BF246A /* UISearchBar+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCE2C1E3255D9C3E00BF246A /* UISearchBar+Extension.swift */; };
+		FCE2C1E7255DFDB000BF246A /* CustomButtonSmall.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCE2C1E6255DFDB000BF246A /* CustomButtonSmall.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -55,6 +62,9 @@
 		FC4F9DF2255BE0C300996D92 /* ColorName.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorName.swift; sourceTree = "<group>"; };
 		FC4F9DF7255C2B2200996D92 /* CustomLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomLabel.swift; sourceTree = "<group>"; };
 		FC4F9E01255C2EC000996D92 /* CustomButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButton.swift; sourceTree = "<group>"; };
+		FC4FBA23255E239900BD4A1E /* UIView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extension.swift"; sourceTree = "<group>"; };
+		FC4FBA26255E253600BD4A1E /* HomeTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTableViewCell.swift; sourceTree = "<group>"; };
+		FC4FBA27255E253600BD4A1E /* HomeTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeTableViewCell.xib; sourceTree = "<group>"; };
 		FCBF666C255D116900E86744 /* IconName.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IconName.swift; sourceTree = "<group>"; };
 		FCBF6670255D124800E86744 /* UITextField+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITextField+Extension.swift"; sourceTree = "<group>"; };
 		FCBF6673255D174100E86744 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
@@ -64,6 +74,10 @@
 		FCD228B0255CA49900FDCB5A /* CreateAccountViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateAccountViewController.swift; sourceTree = "<group>"; };
 		FCD228B1255CA49900FDCB5A /* CreateAccountViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CreateAccountViewController.xib; sourceTree = "<group>"; };
 		FCD228B6255CA99500FDCB5A /* CustomTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
+		FCE2C1DB255D315400BF246A /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		FCE2C1DC255D315400BF246A /* HomeViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeViewController.xib; sourceTree = "<group>"; };
+		FCE2C1E3255D9C3E00BF246A /* UISearchBar+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UISearchBar+Extension.swift"; sourceTree = "<group>"; };
+		FCE2C1E6255DFDB000BF246A /* CustomButtonSmall.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButtonSmall.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -135,6 +149,7 @@
 				FCBF6678255D174600E86744 /* Login */,
 				FCD228AF255CA45200FDCB5A /* CreateAccount */,
 				FCBF6681255D1A9500E86744 /* CheckEmail */,
+				FCE2C1E0255D315800BF246A /* Home */,
 			);
 			path = Module;
 			sourceTree = "<group>";
@@ -193,6 +208,7 @@
 			children = (
 				FC4F9DF7255C2B2200996D92 /* CustomLabel.swift */,
 				FC4F9E01255C2EC000996D92 /* CustomButton.swift */,
+				FCE2C1E6255DFDB000BF246A /* CustomButtonSmall.swift */,
 				FCD228B6255CA99500FDCB5A /* CustomTextField.swift */,
 			);
 			path = CustomComponents;
@@ -202,6 +218,8 @@
 			isa = PBXGroup;
 			children = (
 				FCBF6670255D124800E86744 /* UITextField+Extension.swift */,
+				FCE2C1E3255D9C3E00BF246A /* UISearchBar+Extension.swift */,
+				FC4FBA23255E239900BD4A1E /* UIView+Extension.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -231,6 +249,17 @@
 				FCD228B1255CA49900FDCB5A /* CreateAccountViewController.xib */,
 			);
 			path = CreateAccount;
+			sourceTree = "<group>";
+		};
+		FCE2C1E0255D315800BF246A /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				FCE2C1DB255D315400BF246A /* HomeViewController.swift */,
+				FCE2C1DC255D315400BF246A /* HomeViewController.xib */,
+				FC4FBA26255E253600BD4A1E /* HomeTableViewCell.swift */,
+				FC4FBA27255E253600BD4A1E /* HomeTableViewCell.xib */,
+			);
+			path = Home;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -295,11 +324,13 @@
 			files = (
 				FC3161F5255CB71600D3ED8E /* .swiftlint.yml in Resources */,
 				FC4F9DC8255B9A9200996D92 /* Poppins-Light.ttf in Resources */,
+				FCE2C1DE255D315400BF246A /* HomeViewController.xib in Resources */,
 				FCBF6676255D174100E86744 /* LoginViewController.xib in Resources */,
 				FC4F9DC2255B9A1900996D92 /* Poppins-SemiBold.ttf in Resources */,
 				FC4F9DC5255B9A6900996D92 /* Poppins-Bold.ttf in Resources */,
 				FC4F9DA4255B8E4700996D92 /* LaunchScreen.storyboard in Resources */,
 				FC4F9DA1255B8E4700996D92 /* Assets.xcassets in Resources */,
+				FC4FBA29255E253600BD4A1E /* HomeTableViewCell.xib in Resources */,
 				FC4F9DCB255B9AD800996D92 /* Poppins-Medium.ttf in Resources */,
 				FC4F9D9F255B8E4600996D92 /* Main.storyboard in Resources */,
 				FC4F9DBF255B99A900996D92 /* Poppins-Regular.ttf in Resources */,
@@ -376,6 +407,7 @@
 			files = (
 				FC4F9D9C255B8E4600996D92 /* WelcomeViewController.swift in Sources */,
 				FC4F9DD0255B9C5C00996D92 /* FontName.swift in Sources */,
+				FC4FBA24255E239900BD4A1E /* UIView+Extension.swift in Sources */,
 				FCBF666D255D116900E86744 /* IconName.swift in Sources */,
 				FC4F9D98255B8E4600996D92 /* AppDelegate.swift in Sources */,
 				FC4F9DF3255BE0C300996D92 /* ColorName.swift in Sources */,
@@ -383,9 +415,13 @@
 				FCBF667E255D1A8700E86744 /* CheckEmailViewController.swift in Sources */,
 				FCD228B2255CA49900FDCB5A /* CreateAccountViewController.swift in Sources */,
 				FC4F9E02255C2EC000996D92 /* CustomButton.swift in Sources */,
+				FCE2C1E7255DFDB000BF246A /* CustomButtonSmall.swift in Sources */,
 				FC4F9DF8255C2B2200996D92 /* CustomLabel.swift in Sources */,
 				FCD228B7255CA99500FDCB5A /* CustomTextField.swift in Sources */,
+				FCE2C1DD255D315400BF246A /* HomeViewController.swift in Sources */,
 				FCBF6675255D174100E86744 /* LoginViewController.swift in Sources */,
+				FC4FBA28255E253600BD4A1E /* HomeTableViewCell.swift in Sources */,
+				FCE2C1E4255D9C3E00BF246A /* UISearchBar+Extension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

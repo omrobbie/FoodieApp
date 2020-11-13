@@ -10,4 +10,5 @@ import UIKit
 struct Color {
     static let primary = UIColor(red: 255/255, green: 79/255, blue: 79/255, alpha: 1)
     static let textField = UIColor(named: "textfield-color")
+    static let border = UIColor(red: 239/255, green: 239/255, blue: 239/255, alpha: 1)
 }

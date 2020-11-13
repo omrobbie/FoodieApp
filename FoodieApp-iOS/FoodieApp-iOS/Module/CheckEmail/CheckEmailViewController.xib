@@ -35,19 +35,19 @@
                     </constraints>
                 </imageView>
                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Please check your email" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rAj-7H-UQw">
-                    <rect key="frame" x="35" y="309" width="344" height="90"/>
+                    <rect key="frame" x="35" y="309" width="344" height="75"/>
                     <fontDescription key="fontDescription" name="Poppins-SemiBold" family="Poppins" pointSize="32"/>
                     <nil key="textColor"/>
                     <nil key="highlightedColor"/>
                 </label>
                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="We’ve sent an email with a verification link to verify your account." textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WQZ-zO-mcd">
-                    <rect key="frame" x="35" y="417" width="344" height="50.5"/>
+                    <rect key="frame" x="35" y="402" width="344" height="42"/>
                     <fontDescription key="fontDescription" name="Poppins-Regular" family="Poppins" pointSize="18"/>
                     <color key="textColor" red="0.31372549019607843" green="0.36862745098039218" blue="0.45098039215686275" alpha="1" colorSpace="calibratedRGB"/>
                     <nil key="highlightedColor"/>
                 </label>
                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="P6i-dL-BTP" customClass="CustomButton" customModule="FoodieApp_iOS" customModuleProvider="target">
-                    <rect key="frame" x="28" y="804" width="358" height="30"/>
+                    <rect key="frame" x="28" y="778" width="358" height="56"/>
                     <state key="normal" title="Close"/>
                     <connections>
                         <action selector="btnCloseTapped:" destination="-1" eventType="touchUpInside" id="2Cu-Md-Vhg"/>
@@ -74,7 +74,7 @@
     </objects>
     <designables>
         <designable name="P6i-dL-BTP">
-            <size key="intrinsicContentSize" width="39" height="30"/>
+            <size key="intrinsicContentSize" width="43" height="33"/>
         </designable>
     </designables>
     <resources>

@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17156" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17126"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Poppins-Medium.ttf">
+            <string>Poppins-Medium</string>
+        </array>
+        <array key="Poppins-Regular.ttf">
+            <string>Poppins-Regular</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="HomeViewController" customModule="FoodieApp_iOS" customModuleProvider="target">
+            <connections>
+                <outlet property="headerBox" destination="Co0-oB-HVO" id="hAO-Sv-6oy"/>
+                <outlet property="sgmFilters" destination="xqJ-bT-aFH" id="pBm-19-lR0"/>
+                <outlet property="tableView" destination="f8A-h1-2JL" id="yVN-Jt-XfZ"/>
+                <outlet property="txtSearch" destination="yA0-i2-2rP" id="VEP-Pw-Jiz"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Co0-oB-HVO">
+                    <rect key="frame" x="0.0" y="44" width="414" height="190"/>
+                    <subviews>
+                        <stackView opaque="NO" contentMode="scaleToFill" alignment="center" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="yh1-Rg-Mnv">
+                            <rect key="frame" x="28" y="25" width="358" height="37.5"/>
+                            <subviews>
+                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="pin-map" translatesAutoresizingMaskIntoConstraints="NO" id="DrI-vZ-v44">
+                                    <rect key="frame" x="0.0" y="11.5" width="15" height="15"/>
+                                    <constraints>
+                                        <constraint firstAttribute="width" constant="15" id="kZo-be-vrk"/>
+                                        <constraint firstAttribute="height" constant="15" id="vkb-oz-JHX"/>
+                                    </constraints>
+                                </imageView>
+                                <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" translatesAutoresizingMaskIntoConstraints="NO" id="CU7-eM-dZO">
+                                    <rect key="frame" x="23" y="0.0" width="335" height="37.5"/>
+                                    <subviews>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Current location" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IEd-zn-I2V">
+                                            <rect key="frame" x="0.0" y="0.0" width="100.5" height="16.5"/>
+                                            <fontDescription key="fontDescription" name="Poppins-Regular" family="Poppins" pointSize="14"/>
+                                            <color key="textColor" red="0.31372549019607843" green="0.36862745098039218" blue="0.45098039215686275" alpha="1" colorSpace="calibratedRGB"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Jalan Raya Babakan, 16 Canggu, Bali - Indonesia" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gen-op-I4G">
+                                            <rect key="frame" x="0.0" y="16.5" width="335" height="21"/>
+                                            <fontDescription key="fontDescription" name="Poppins-Medium" family="Poppins" pointSize="18"/>
+                                            <color key="textColor" name="darkGray-color"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                    </subviews>
+                                </stackView>
+                            </subviews>
+                        </stackView>
+                        <searchBar contentMode="redraw" searchBarStyle="minimal" placeholder="What are you craving?" translatesAutoresizingMaskIntoConstraints="NO" id="yA0-i2-2rP">
+                            <rect key="frame" x="20" y="77.5" width="374" height="56"/>
+                            <textInputTraits key="textInputTraits"/>
+                        </searchBar>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OoE-qb-eak" customClass="CustomButtonSmall" customModule="FoodieApp_iOS" customModuleProvider="target">
+                            <rect key="frame" x="28" y="133.5" width="74" height="31"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="74" id="ftc-bF-iBv"/>
+                            </constraints>
+                            <inset key="titleEdgeInsets" minX="10" minY="0.0" maxX="0.0" maxY="0.0"/>
+                            <state key="normal" title="Filters" image="filters">
+                                <color key="titleColor" systemColor="labelColor"/>
+                            </state>
+                            <userDefinedRuntimeAttributes>
+                                <userDefinedRuntimeAttribute type="boolean" keyPath="borderOnly" value="YES"/>
+                            </userDefinedRuntimeAttributes>
+                        </button>
+                        <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="xqJ-bT-aFH">
+                            <rect key="frame" x="115" y="133.5" width="133" height="32"/>
+                            <segments>
+                                <segment title="Nearby"/>
+                                <segment title="Popular"/>
+                            </segments>
+                            <color key="selectedSegmentTintColor" name="primary-color"/>
+                        </segmentedControl>
+                    </subviews>
+                    <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    <constraints>
+                        <constraint firstItem="yh1-Rg-Mnv" firstAttribute="leading" secondItem="Co0-oB-HVO" secondAttribute="leading" constant="28" id="0Hf-Z4-AGw"/>
+                        <constraint firstItem="xqJ-bT-aFH" firstAttribute="height" secondItem="OoE-qb-eak" secondAttribute="height" id="43l-1Z-5ZP"/>
+                        <constraint firstItem="yh1-Rg-Mnv" firstAttribute="top" secondItem="Co0-oB-HVO" secondAttribute="top" constant="25" id="5pE-io-8Be"/>
+                        <constraint firstItem="yA0-i2-2rP" firstAttribute="top" secondItem="yh1-Rg-Mnv" secondAttribute="bottom" constant="15" id="ACf-nF-iaf"/>
+                        <constraint firstItem="OoE-qb-eak" firstAttribute="leading" secondItem="Co0-oB-HVO" secondAttribute="leading" constant="28" id="GGa-AE-Dyj"/>
+                        <constraint firstItem="xqJ-bT-aFH" firstAttribute="leading" secondItem="OoE-qb-eak" secondAttribute="trailing" constant="13" id="NXX-KU-XEZ"/>
+                        <constraint firstAttribute="trailing" secondItem="yA0-i2-2rP" secondAttribute="trailing" constant="20" id="QgB-YR-uCN"/>
+                        <constraint firstItem="yA0-i2-2rP" firstAttribute="leading" secondItem="Co0-oB-HVO" secondAttribute="leading" constant="20" id="egx-hh-7D4"/>
+                        <constraint firstItem="OoE-qb-eak" firstAttribute="top" secondItem="yA0-i2-2rP" secondAttribute="bottom" id="izd-9H-l8C"/>
+                        <constraint firstAttribute="trailing" secondItem="yh1-Rg-Mnv" secondAttribute="trailing" constant="28" id="lIv-v2-3bF"/>
+                        <constraint firstItem="xqJ-bT-aFH" firstAttribute="centerY" secondItem="OoE-qb-eak" secondAttribute="centerY" id="mTI-4a-J7k"/>
+                        <constraint firstAttribute="height" constant="190" id="nyO-1q-ChK"/>
+                    </constraints>
+                </view>
+                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="f8A-h1-2JL">
+                    <rect key="frame" x="0.0" y="244" width="414" height="652"/>
+                    <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                </tableView>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="Co0-oB-HVO" secondAttribute="trailing" id="0b7-6c-Wg0"/>
+                <constraint firstAttribute="bottom" secondItem="f8A-h1-2JL" secondAttribute="bottom" id="23F-PE-UJA"/>
+                <constraint firstItem="Co0-oB-HVO" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="3bq-g9-hQZ"/>
+                <constraint firstItem="f8A-h1-2JL" firstAttribute="top" secondItem="Co0-oB-HVO" secondAttribute="bottom" constant="10" id="BJo-5p-2Sf"/>
+                <constraint firstItem="Co0-oB-HVO" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" id="E0X-0s-fSI"/>
+                <constraint firstItem="f8A-h1-2JL" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="I6A-Bo-iTe"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="f8A-h1-2JL" secondAttribute="trailing" id="RsF-24-klL"/>
+            </constraints>
+            <point key="canvasLocation" x="-213.04347826086959" y="129.91071428571428"/>
+        </view>
+    </objects>
+    <designables>
+        <designable name="OoE-qb-eak">
+            <size key="intrinsicContentSize" width="60" height="21"/>
+        </designable>
+    </designables>
+    <resources>
+        <image name="filters" width="13" height="13"/>
+        <image name="pin-map" width="14" height="14"/>
+        <namedColor name="darkGray-color">
+            <color red="0.14509803921568626" green="0.18823529411764706" blue="0.23137254901960785" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="primary-color">
+            <color red="1" green="0.30980392156862746" blue="0.30980392156862746" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <systemColor name="labelColor">
+            <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
