@@ -9,5 +9,6 @@ target 'FoodieApp-iOS' do
   pod 'SwiftLint'
   pod 'CountryPickerView'
   pod 'IQKeyboardManagerSwift'
+  pod 'GMStepper'
 
 end

@@ -81,6 +81,9 @@ extension KitchenDetailViewController: UICollectionViewDelegateFlowLayout,
 
     func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
         print("Item \(indexPath.row)")
-        showViewBasketBox()
+
+        let foodDetailVC = FoodDetailViewController()
+        foodDetailVC.modalPresentationStyle = .fullScreen
+        present(foodDetailVC, animated: true)
     }
 }
