@@ -8,8 +8,16 @@
 
 /* Begin PBXBuildFile section */
 		620974E8FC48CF3477F15C97 /* Pods_FoodieApp_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 99E550BDCDC61DF844E1E5E0 /* Pods_FoodieApp_iOS.framework */; };
+		FC16AEF4255FA5BC00180235 /* UIViewController+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC16AEF3255FA5BC00180235 /* UIViewController+Extension.swift */; };
+		FC16AEFB255FAB5000180235 /* KitchenDetailCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC16AEF9255FAB5000180235 /* KitchenDetailCollectionViewCell.swift */; };
+		FC16AEFC255FAB5000180235 /* KitchenDetailCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FC16AEFA255FAB5000180235 /* KitchenDetailCollectionViewCell.xib */; };
+		FC16AEFF255FAC2400180235 /* CellName.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC16AEFE255FAC2400180235 /* CellName.swift */; };
+		FC16AF062560A33900180235 /* UICollectionView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC16AF052560A33900180235 /* UICollectionView+Extension.swift */; };
+		FC16AF092560B86E00180235 /* CustomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC16AF082560B86E00180235 /* CustomView.swift */; };
 		FC3161F5255CB71600D3ED8E /* .swiftlint.yml in Resources */ = {isa = PBXBuildFile; fileRef = FC3161F4255CB71600D3ED8E /* .swiftlint.yml */; };
 		FC3FDF7B255F4F2B00AEF21E /* MainTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC3FDF7A255F4F2B00AEF21E /* MainTabBarViewController.swift */; };
+		FC3FDF81255F55AA00AEF21E /* KitchenDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC3FDF7F255F55AA00AEF21E /* KitchenDetailViewController.swift */; };
+		FC3FDF82255F55AA00AEF21E /* KitchenDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FC3FDF80255F55AA00AEF21E /* KitchenDetailViewController.xib */; };
 		FC4F9D98255B8E4600996D92 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC4F9D97255B8E4600996D92 /* AppDelegate.swift */; };
 		FC4F9D9C255B8E4600996D92 /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC4F9D9B255B8E4600996D92 /* WelcomeViewController.swift */; };
 		FC4F9D9F255B8E4600996D92 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC4F9D9D255B8E4600996D92 /* Main.storyboard */; };
@@ -46,8 +54,16 @@
 		4D9311C04ED10998244071E3 /* Pods-FoodieApp-iOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FoodieApp-iOS.debug.xcconfig"; path = "Target Support Files/Pods-FoodieApp-iOS/Pods-FoodieApp-iOS.debug.xcconfig"; sourceTree = "<group>"; };
 		99E550BDCDC61DF844E1E5E0 /* Pods_FoodieApp_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FoodieApp_iOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A5F4C1B4CFFD9275148D0FDD /* Pods-FoodieApp-iOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FoodieApp-iOS.release.xcconfig"; path = "Target Support Files/Pods-FoodieApp-iOS/Pods-FoodieApp-iOS.release.xcconfig"; sourceTree = "<group>"; };
+		FC16AEF3255FA5BC00180235 /* UIViewController+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Extension.swift"; sourceTree = "<group>"; };
+		FC16AEF9255FAB5000180235 /* KitchenDetailCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KitchenDetailCollectionViewCell.swift; sourceTree = "<group>"; };
+		FC16AEFA255FAB5000180235 /* KitchenDetailCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = KitchenDetailCollectionViewCell.xib; sourceTree = "<group>"; };
+		FC16AEFE255FAC2400180235 /* CellName.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellName.swift; sourceTree = "<group>"; };
+		FC16AF052560A33900180235 /* UICollectionView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UICollectionView+Extension.swift"; sourceTree = "<group>"; };
+		FC16AF082560B86E00180235 /* CustomView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomView.swift; sourceTree = "<group>"; };
 		FC3161F4255CB71600D3ED8E /* .swiftlint.yml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.yaml; path = .swiftlint.yml; sourceTree = SOURCE_ROOT; };
 		FC3FDF7A255F4F2B00AEF21E /* MainTabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarViewController.swift; sourceTree = "<group>"; };
+		FC3FDF7F255F55AA00AEF21E /* KitchenDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KitchenDetailViewController.swift; sourceTree = "<group>"; };
+		FC3FDF80255F55AA00AEF21E /* KitchenDetailViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = KitchenDetailViewController.xib; sourceTree = "<group>"; };
 		FC4F9D94255B8E4600996D92 /* FoodieApp-iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "FoodieApp-iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FC4F9D97255B8E4600996D92 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FC4F9D9B255B8E4600996D92 /* WelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
@@ -117,6 +133,17 @@
 				FC3FDF7A255F4F2B00AEF21E /* MainTabBarViewController.swift */,
 			);
 			path = Helpers;
+			sourceTree = "<group>";
+		};
+		FC3FDF7D255F555000AEF21E /* KitchenDetail */ = {
+			isa = PBXGroup;
+			children = (
+				FC3FDF7F255F55AA00AEF21E /* KitchenDetailViewController.swift */,
+				FC3FDF80255F55AA00AEF21E /* KitchenDetailViewController.xib */,
+				FC16AEF9255FAB5000180235 /* KitchenDetailCollectionViewCell.swift */,
+				FC16AEFA255FAB5000180235 /* KitchenDetailCollectionViewCell.xib */,
+			);
+			path = KitchenDetail;
 			sourceTree = "<group>";
 		};
 		FC4F9D8B255B8E4600996D92 = {
@@ -210,6 +237,7 @@
 				FC4F9DCF255B9C5C00996D92 /* FontName.swift */,
 				FC4F9DF2255BE0C300996D92 /* ColorName.swift */,
 				FCBF666C255D116900E86744 /* IconName.swift */,
+				FC16AEFE255FAC2400180235 /* CellName.swift */,
 			);
 			path = Constants;
 			sourceTree = "<group>";
@@ -221,6 +249,7 @@
 				FC4F9E01255C2EC000996D92 /* CustomButton.swift */,
 				FCE2C1E6255DFDB000BF246A /* CustomButtonSmall.swift */,
 				FCD228B6255CA99500FDCB5A /* CustomTextField.swift */,
+				FC16AF082560B86E00180235 /* CustomView.swift */,
 			);
 			path = CustomComponents;
 			sourceTree = "<group>";
@@ -231,6 +260,8 @@
 				FCBF6670255D124800E86744 /* UITextField+Extension.swift */,
 				FCE2C1E3255D9C3E00BF246A /* UISearchBar+Extension.swift */,
 				FC4FBA23255E239900BD4A1E /* UIView+Extension.swift */,
+				FC16AEF3255FA5BC00180235 /* UIViewController+Extension.swift */,
+				FC16AF052560A33900180235 /* UICollectionView+Extension.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -269,6 +300,7 @@
 				FCE2C1DC255D315400BF246A /* HomeViewController.xib */,
 				FC4FBA26255E253600BD4A1E /* HomeTableViewCell.swift */,
 				FC4FBA27255E253600BD4A1E /* HomeTableViewCell.xib */,
+				FC3FDF7D255F555000AEF21E /* KitchenDetail */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -334,8 +366,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				FC3161F5255CB71600D3ED8E /* .swiftlint.yml in Resources */,
+				FC3FDF82255F55AA00AEF21E /* KitchenDetailViewController.xib in Resources */,
 				FC4F9DC8255B9A9200996D92 /* Poppins-Light.ttf in Resources */,
 				FCE2C1DE255D315400BF246A /* HomeViewController.xib in Resources */,
+				FC16AEFC255FAB5000180235 /* KitchenDetailCollectionViewCell.xib in Resources */,
 				FCBF6676255D174100E86744 /* LoginViewController.xib in Resources */,
 				FC4F9DC2255B9A1900996D92 /* Poppins-SemiBold.ttf in Resources */,
 				FC4F9DC5255B9A6900996D92 /* Poppins-Bold.ttf in Resources */,
@@ -424,14 +458,20 @@
 				FC4F9D98255B8E4600996D92 /* AppDelegate.swift in Sources */,
 				FC4F9DF3255BE0C300996D92 /* ColorName.swift in Sources */,
 				FCBF6671255D124800E86744 /* UITextField+Extension.swift in Sources */,
+				FC16AEF4255FA5BC00180235 /* UIViewController+Extension.swift in Sources */,
+				FC16AF092560B86E00180235 /* CustomView.swift in Sources */,
+				FC16AF062560A33900180235 /* UICollectionView+Extension.swift in Sources */,
 				FCBF667E255D1A8700E86744 /* CheckEmailViewController.swift in Sources */,
 				FCD228B2255CA49900FDCB5A /* CreateAccountViewController.swift in Sources */,
+				FC16AEFB255FAB5000180235 /* KitchenDetailCollectionViewCell.swift in Sources */,
 				FC4F9E02255C2EC000996D92 /* CustomButton.swift in Sources */,
 				FCE2C1E7255DFDB000BF246A /* CustomButtonSmall.swift in Sources */,
 				FC4F9DF8255C2B2200996D92 /* CustomLabel.swift in Sources */,
 				FCD228B7255CA99500FDCB5A /* CustomTextField.swift in Sources */,
 				FCE2C1DD255D315400BF246A /* HomeViewController.swift in Sources */,
 				FCBF6675255D174100E86744 /* LoginViewController.swift in Sources */,
+				FC16AEFF255FAC2400180235 /* CellName.swift in Sources */,
+				FC3FDF81255F55AA00AEF21E /* KitchenDetailViewController.swift in Sources */,
 				FC4FBA28255E253600BD4A1E /* HomeTableViewCell.swift in Sources */,
 				FCE2C1E4255D9C3E00BF246A /* UISearchBar+Extension.swift in Sources */,
 			);

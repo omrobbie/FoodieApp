@@ -50,8 +50,8 @@ class HomeViewController: UIViewController {
         tableView.tableFooterView = UIView()
 
         tableView.register(
-            UINib(nibName: "HomeTableViewCell", bundle: nil),
-            forCellReuseIdentifier: "home"
+            UINib(nibName: CellName.homeCell, bundle: nil),
+            forCellReuseIdentifier: CellName.homeCell
         )
     }
 }
@@ -62,7 +62,7 @@ extension HomeViewController: UITableViewDelegate, UITableViewDataSource {
     }
 
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        guard let cell = tableView.dequeueReusableCell(withIdentifier: "home") as? HomeTableViewCell else {
+        guard let cell = tableView.dequeueReusableCell(withIdentifier: CellName.homeCell) as? HomeTableViewCell else {
             return UITableViewCell()
         }
 
@@ -71,5 +71,9 @@ extension HomeViewController: UITableViewDelegate, UITableViewDataSource {
 
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         tableView.deselectRow(at: indexPath, animated: true)
+
+        let kitchenDetailVC = KitchenDetailViewController()
+        kitchenDetailVC.modalPresentationStyle = .fullScreen
+        presentDetail(kitchenDetailVC)
     }
 }

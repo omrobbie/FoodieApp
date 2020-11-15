@@ -8,11 +8,15 @@
 import UIKit
 
 extension UIView {
-    func withShadow() {
+    func withShadow(shadowUpSide: Bool = false) {
         layer.shadowColor = UIColor.lightGray.cgColor
         layer.shadowOpacity = 1
-        layer.shadowOffset = CGSize(width: 0, height: 6)
         layer.shadowRadius = 4
+
+        layer.shadowOffset = CGSize(
+            width: 0,
+            height: shadowUpSide ? -6 : 6
+        )
 
         layer.shadowPath = UIBezierPath(rect: bounds).cgPath
         layer.shouldRasterize = true

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17506" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17505"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Poppins-Regular.ttf">
+            <string>Poppins-Regular</string>
+        </array>
+        <array key="Poppins-SemiBold.ttf">
+            <string>Poppins-SemiBold</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="gTV-IL-0wX" customClass="KitchenDetailCollectionViewCell" customModule="FoodieApp_iOS" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="190" height="244"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="190" height="244"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="image-placeholder" translatesAutoresizingMaskIntoConstraints="NO" id="Fft-a1-zhl">
+                        <rect key="frame" x="0.0" y="0.0" width="190" height="190"/>
+                        <constraints>
+                            <constraint firstAttribute="width" secondItem="Fft-a1-zhl" secondAttribute="height" multiplier="1:1" id="Mcm-V7-R7v"/>
+                        </constraints>
+                    </imageView>
+                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" spacing="3" translatesAutoresizingMaskIntoConstraints="NO" id="8Yc-xA-ptL">
+                        <rect key="frame" x="0.0" y="198" width="190" height="38.5"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Fish and Chips" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ndq-me-M6r">
+                                <rect key="frame" x="0.0" y="0.0" width="94" height="16.5"/>
+                                <fontDescription key="fontDescription" name="Poppins-Regular" family="Poppins" pointSize="14"/>
+                                <color key="textColor" name="lightGray-color"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="40.000" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7zm-AV-0Nn">
+                                <rect key="frame" x="0.0" y="19.5" width="49" height="19"/>
+                                <fontDescription key="fontDescription" name="Poppins-SemiBold" family="Poppins" pointSize="16"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                    </stackView>
+                </subviews>
+            </view>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="Fft-a1-zhl" secondAttribute="trailing" id="75v-Nf-Bs2"/>
+                <constraint firstItem="Fft-a1-zhl" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="aon-9W-GKm"/>
+                <constraint firstItem="8Yc-xA-ptL" firstAttribute="top" secondItem="Fft-a1-zhl" secondAttribute="bottom" constant="8" id="d5P-Pw-Wg7"/>
+                <constraint firstItem="8Yc-xA-ptL" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="de4-Z9-oWU"/>
+                <constraint firstItem="Fft-a1-zhl" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="fbB-v0-t92"/>
+                <constraint firstAttribute="trailing" secondItem="8Yc-xA-ptL" secondAttribute="trailing" id="lOb-RZ-zdZ"/>
+            </constraints>
+            <size key="customSize" width="190" height="244"/>
+            <point key="canvasLocation" x="-139.13043478260872" y="117.85714285714285"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="image-placeholder" width="80" height="80"/>
+        <namedColor name="lightGray-color">
+            <color red="0.31400001049041748" green="0.36899998784065247" blue="0.45100000500679016" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
+</document>
