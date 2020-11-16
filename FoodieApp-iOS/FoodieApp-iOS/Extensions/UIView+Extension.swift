@@ -15,7 +15,7 @@ extension UIView {
 
         layer.shadowOffset = CGSize(
             width: 0,
-            height: shadowUpSide ? -6 : 6
+            height: shadowUpSide ? -8 : 8
         )
 
         layer.shadowPath = UIBezierPath(rect: bounds).cgPath

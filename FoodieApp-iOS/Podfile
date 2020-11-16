@@ -10,5 +10,6 @@ target 'FoodieApp-iOS' do
   pod 'CountryPickerView'
   pod 'IQKeyboardManagerSwift'
   pod 'GMStepper'
+  pod 'SwiftyStarRatingView'
 
 end

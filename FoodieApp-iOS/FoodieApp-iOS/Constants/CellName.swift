@@ -15,4 +15,10 @@ struct CellName {
     static let basketPaymentCell = "BasketPaymentTableViewCell"
 
     static let myOrderCell = "MyOrderTableViewCell"
+    static let myOrderDeliverCell = "MyOrderDeliverTableViewCell"
+    static let myOrderLocationCell = "MyOrderLocationTableViewCell"
+    static let myOrderSummaryCell = "MyOrderSummaryTableViewCell"
+    static let myOrderSummaryDetailCell = "MyOrderSummaryDetailTableViewCell"
+    static let myOrderSubtotalCell = "MyOrderSubtotalTableViewCell"
+    static let myOrderTotalCell = "MyOrderTotalTableViewCell"
 }

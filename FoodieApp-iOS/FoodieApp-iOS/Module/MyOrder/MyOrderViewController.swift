@@ -46,5 +46,9 @@ extension MyOrderViewController: UITableViewDelegate, UITableViewDataSource {
 
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         tableView.deselectRow(at: indexPath, animated: true)
+
+        let myOrderDetailVC = MyOrderDetailViewController()
+        myOrderDetailVC.modalPresentationStyle = .fullScreen
+        presentDetail(myOrderDetailVC)
     }
 }

@@ -32,7 +32,7 @@
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
                 <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="mdO-yC-cY4">
-                    <rect key="frame" x="0.0" y="125" width="414" height="641"/>
+                    <rect key="frame" x="0.0" y="125" width="414" height="615"/>
                     <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                 </tableView>
                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="rvC-uz-2iB">
@@ -78,10 +78,10 @@
                     </constraints>
                 </view>
                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="0IK-LT-Bjl">
-                    <rect key="frame" x="0.0" y="766" width="414" height="96"/>
+                    <rect key="frame" x="0.0" y="740" width="414" height="122"/>
                     <subviews>
                         <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Uwe-Zo-RrC" customClass="CustomButton" customModule="FoodieApp_iOS" customModuleProvider="target">
-                            <rect key="frame" x="28" y="51" width="358" height="30"/>
+                            <rect key="frame" x="28" y="51" width="358" height="56"/>
                             <state key="normal" title="Place Order"/>
                         </button>
                         <stackView opaque="NO" contentMode="scaleToFill" distribution="equalCentering" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="dXm-Ev-eVk">
@@ -133,7 +133,7 @@
     </objects>
     <designables>
         <designable name="Uwe-Zo-RrC">
-            <size key="intrinsicContentSize" width="81" height="30"/>
+            <size key="intrinsicContentSize" width="90" height="33"/>
         </designable>
     </designables>
     <resources>

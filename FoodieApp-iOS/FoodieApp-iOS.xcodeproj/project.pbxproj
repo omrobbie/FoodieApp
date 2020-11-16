@@ -51,6 +51,24 @@
 		FC8BDA30256215700083294E /* MyOrderViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FC8BDA2E256215700083294E /* MyOrderViewController.xib */; };
 		FC8BDA3825621EA10083294E /* MyOrderTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC8BDA3625621EA10083294E /* MyOrderTableViewCell.swift */; };
 		FC8BDA3925621EA10083294E /* MyOrderTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FC8BDA3725621EA10083294E /* MyOrderTableViewCell.xib */; };
+		FC8BDA3D25623C3C0083294E /* MyOrderDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC8BDA3B25623C3C0083294E /* MyOrderDetailViewController.swift */; };
+		FC8BDA3E25623C3C0083294E /* MyOrderDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FC8BDA3C25623C3C0083294E /* MyOrderDetailViewController.xib */; };
+		FC8BDA4425623FAE0083294E /* MyOrderDeliverTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC8BDA4225623FAE0083294E /* MyOrderDeliverTableViewCell.swift */; };
+		FC8BDA4525623FAE0083294E /* MyOrderDeliverTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FC8BDA4325623FAE0083294E /* MyOrderDeliverTableViewCell.xib */; };
+		FC8BDA492562506B0083294E /* MyOrderLocationTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC8BDA472562506B0083294E /* MyOrderLocationTableViewCell.swift */; };
+		FC8BDA4A2562506B0083294E /* MyOrderLocationTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FC8BDA482562506B0083294E /* MyOrderLocationTableViewCell.xib */; };
+		FC8BDA4E256256220083294E /* MyOrderSummaryTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC8BDA4C256256220083294E /* MyOrderSummaryTableViewCell.swift */; };
+		FC8BDA4F256256220083294E /* MyOrderSummaryTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FC8BDA4D256256220083294E /* MyOrderSummaryTableViewCell.xib */; };
+		FC8BDA53256257300083294E /* MyOrderSummaryDetailTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC8BDA51256257300083294E /* MyOrderSummaryDetailTableViewCell.swift */; };
+		FC8BDA54256257300083294E /* MyOrderSummaryDetailTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FC8BDA52256257300083294E /* MyOrderSummaryDetailTableViewCell.xib */; };
+		FC8BDA58256258E20083294E /* MyOrderSubtotalTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC8BDA56256258E20083294E /* MyOrderSubtotalTableViewCell.swift */; };
+		FC8BDA59256258E20083294E /* MyOrderSubtotalTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FC8BDA57256258E20083294E /* MyOrderSubtotalTableViewCell.xib */; };
+		FC8BDA5D25625A810083294E /* MyOrderTotalTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC8BDA5B25625A810083294E /* MyOrderTotalTableViewCell.swift */; };
+		FC8BDA5E25625A810083294E /* MyOrderTotalTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FC8BDA5C25625A810083294E /* MyOrderTotalTableViewCell.xib */; };
+		FC8BDA6125625E130083294E /* BottomSheetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC8BDA6025625E130083294E /* BottomSheetViewController.swift */; };
+		FC8BDA66256262040083294E /* FeedbackViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC8BDA64256262040083294E /* FeedbackViewController.swift */; };
+		FC8BDA67256262040083294E /* FeedbackViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FC8BDA65256262040083294E /* FeedbackViewController.xib */; };
+		FC8BDAC22563CA2D0083294E /* CustomTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC8BDAC12563CA2D0083294E /* CustomTextView.swift */; };
 		FCBF666D255D116900E86744 /* IconName.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCBF666C255D116900E86744 /* IconName.swift */; };
 		FCBF6671255D124800E86744 /* UITextField+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCBF6670255D124800E86744 /* UITextField+Extension.swift */; };
 		FCBF6675255D174100E86744 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCBF6673255D174100E86744 /* LoginViewController.swift */; };
@@ -115,6 +133,24 @@
 		FC8BDA2E256215700083294E /* MyOrderViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MyOrderViewController.xib; sourceTree = "<group>"; };
 		FC8BDA3625621EA10083294E /* MyOrderTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyOrderTableViewCell.swift; sourceTree = "<group>"; };
 		FC8BDA3725621EA10083294E /* MyOrderTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MyOrderTableViewCell.xib; sourceTree = "<group>"; };
+		FC8BDA3B25623C3C0083294E /* MyOrderDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyOrderDetailViewController.swift; sourceTree = "<group>"; };
+		FC8BDA3C25623C3C0083294E /* MyOrderDetailViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MyOrderDetailViewController.xib; sourceTree = "<group>"; };
+		FC8BDA4225623FAE0083294E /* MyOrderDeliverTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyOrderDeliverTableViewCell.swift; sourceTree = "<group>"; };
+		FC8BDA4325623FAE0083294E /* MyOrderDeliverTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MyOrderDeliverTableViewCell.xib; sourceTree = "<group>"; };
+		FC8BDA472562506B0083294E /* MyOrderLocationTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyOrderLocationTableViewCell.swift; sourceTree = "<group>"; };
+		FC8BDA482562506B0083294E /* MyOrderLocationTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MyOrderLocationTableViewCell.xib; sourceTree = "<group>"; };
+		FC8BDA4C256256220083294E /* MyOrderSummaryTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyOrderSummaryTableViewCell.swift; sourceTree = "<group>"; };
+		FC8BDA4D256256220083294E /* MyOrderSummaryTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MyOrderSummaryTableViewCell.xib; sourceTree = "<group>"; };
+		FC8BDA51256257300083294E /* MyOrderSummaryDetailTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyOrderSummaryDetailTableViewCell.swift; sourceTree = "<group>"; };
+		FC8BDA52256257300083294E /* MyOrderSummaryDetailTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MyOrderSummaryDetailTableViewCell.xib; sourceTree = "<group>"; };
+		FC8BDA56256258E20083294E /* MyOrderSubtotalTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyOrderSubtotalTableViewCell.swift; sourceTree = "<group>"; };
+		FC8BDA57256258E20083294E /* MyOrderSubtotalTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MyOrderSubtotalTableViewCell.xib; sourceTree = "<group>"; };
+		FC8BDA5B25625A810083294E /* MyOrderTotalTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyOrderTotalTableViewCell.swift; sourceTree = "<group>"; };
+		FC8BDA5C25625A810083294E /* MyOrderTotalTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MyOrderTotalTableViewCell.xib; sourceTree = "<group>"; };
+		FC8BDA6025625E130083294E /* BottomSheetViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottomSheetViewController.swift; sourceTree = "<group>"; };
+		FC8BDA64256262040083294E /* FeedbackViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedbackViewController.swift; sourceTree = "<group>"; };
+		FC8BDA65256262040083294E /* FeedbackViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FeedbackViewController.xib; sourceTree = "<group>"; };
+		FC8BDAC12563CA2D0083294E /* CustomTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextView.swift; sourceTree = "<group>"; };
 		FCBF666C255D116900E86744 /* IconName.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IconName.swift; sourceTree = "<group>"; };
 		FCBF6670255D124800E86744 /* UITextField+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITextField+Extension.swift"; sourceTree = "<group>"; };
 		FCBF6673255D174100E86744 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
@@ -189,6 +225,7 @@
 			isa = PBXGroup;
 			children = (
 				FC3FDF7A255F4F2B00AEF21E /* MainTabBarViewController.swift */,
+				FC8BDA6025625E130083294E /* BottomSheetViewController.swift */,
 			);
 			path = Helpers;
 			sourceTree = "<group>";
@@ -310,6 +347,7 @@
 				FC4F9E01255C2EC000996D92 /* CustomButton.swift */,
 				FCE2C1E6255DFDB000BF246A /* CustomButtonSmall.swift */,
 				FCD228B6255CA99500FDCB5A /* CustomTextField.swift */,
+				FC8BDAC12563CA2D0083294E /* CustomTextView.swift */,
 				FC16AF082560B86E00180235 /* CustomView.swift */,
 			);
 			path = CustomComponents;
@@ -322,8 +360,32 @@
 				FC8BDA2E256215700083294E /* MyOrderViewController.xib */,
 				FC8BDA3625621EA10083294E /* MyOrderTableViewCell.swift */,
 				FC8BDA3725621EA10083294E /* MyOrderTableViewCell.xib */,
+				FC8BDA4025623C450083294E /* MyOrderDetail */,
 			);
 			path = MyOrder;
+			sourceTree = "<group>";
+		};
+		FC8BDA4025623C450083294E /* MyOrderDetail */ = {
+			isa = PBXGroup;
+			children = (
+				FC8BDA3B25623C3C0083294E /* MyOrderDetailViewController.swift */,
+				FC8BDA3C25623C3C0083294E /* MyOrderDetailViewController.xib */,
+				FC8BDA4225623FAE0083294E /* MyOrderDeliverTableViewCell.swift */,
+				FC8BDA4325623FAE0083294E /* MyOrderDeliverTableViewCell.xib */,
+				FC8BDA472562506B0083294E /* MyOrderLocationTableViewCell.swift */,
+				FC8BDA482562506B0083294E /* MyOrderLocationTableViewCell.xib */,
+				FC8BDA4C256256220083294E /* MyOrderSummaryTableViewCell.swift */,
+				FC8BDA4D256256220083294E /* MyOrderSummaryTableViewCell.xib */,
+				FC8BDA51256257300083294E /* MyOrderSummaryDetailTableViewCell.swift */,
+				FC8BDA52256257300083294E /* MyOrderSummaryDetailTableViewCell.xib */,
+				FC8BDA56256258E20083294E /* MyOrderSubtotalTableViewCell.swift */,
+				FC8BDA57256258E20083294E /* MyOrderSubtotalTableViewCell.xib */,
+				FC8BDA5B25625A810083294E /* MyOrderTotalTableViewCell.swift */,
+				FC8BDA5C25625A810083294E /* MyOrderTotalTableViewCell.xib */,
+				FC8BDA64256262040083294E /* FeedbackViewController.swift */,
+				FC8BDA65256262040083294E /* FeedbackViewController.xib */,
+			);
+			path = MyOrderDetail;
 			sourceTree = "<group>";
 		};
 		FCBF666F255D122B00E86744 /* Extensions */ = {
@@ -437,11 +499,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FC8BDA3E25623C3C0083294E /* MyOrderDetailViewController.xib in Resources */,
 				FC3161F5255CB71600D3ED8E /* .swiftlint.yml in Resources */,
 				FC3FDF82255F55AA00AEF21E /* KitchenDetailViewController.xib in Resources */,
 				FC4F9DC8255B9A9200996D92 /* Poppins-Light.ttf in Resources */,
 				FCE2C1DE255D315400BF246A /* HomeViewController.xib in Resources */,
 				FC16AEFC255FAB5000180235 /* KitchenDetailCollectionViewCell.xib in Resources */,
+				FC8BDA59256258E20083294E /* MyOrderSubtotalTableViewCell.xib in Resources */,
 				FCBF6676255D174100E86744 /* LoginViewController.xib in Resources */,
 				FC8BDA3925621EA10083294E /* MyOrderTableViewCell.xib in Resources */,
 				FC4F9DC2255B9A1900996D92 /* Poppins-SemiBold.ttf in Resources */,
@@ -450,10 +514,14 @@
 				FC4F9DA4255B8E4700996D92 /* LaunchScreen.storyboard in Resources */,
 				FC16AF36256130FF00180235 /* BasketOrderTableViewCell.xib in Resources */,
 				FC4F9DA1255B8E4700996D92 /* Assets.xcassets in Resources */,
+				FC8BDA67256262040083294E /* FeedbackViewController.xib in Resources */,
 				FC4FBA29255E253600BD4A1E /* HomeTableViewCell.xib in Resources */,
+				FC8BDA5E25625A810083294E /* MyOrderTotalTableViewCell.xib in Resources */,
 				FC4F9DCB255B9AD800996D92 /* Poppins-Medium.ttf in Resources */,
 				FC16AF4025613A0B00180235 /* BasketPaymentTableViewCell.xib in Resources */,
 				FC4F9D9F255B8E4600996D92 /* Main.storyboard in Resources */,
+				FC8BDA4525623FAE0083294E /* MyOrderDeliverTableViewCell.xib in Resources */,
+				FC8BDA4A2562506B0083294E /* MyOrderLocationTableViewCell.xib in Resources */,
 				FC16AF3B256137F900180235 /* BasketOrderTotalTableViewCell.xib in Resources */,
 				FC4F9DBF255B99A900996D92 /* Poppins-Regular.ttf in Resources */,
 				FCBF667F255D1A8700E86744 /* CheckEmailViewController.xib in Resources */,
@@ -461,6 +529,8 @@
 				FCD228B3255CA49900FDCB5A /* CreateAccountViewController.xib in Resources */,
 				FC16AF292560CADF00180235 /* BasketViewController.xib in Resources */,
 				FC16AF0E2560BC6300180235 /* FoodDetailViewController.xib in Resources */,
+				FC8BDA54256257300083294E /* MyOrderSummaryDetailTableViewCell.xib in Resources */,
+				FC8BDA4F256256220083294E /* MyOrderSummaryTableViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -532,13 +602,19 @@
 			files = (
 				FC8BDA2F256215700083294E /* MyOrderViewController.swift in Sources */,
 				FC4F9D9C255B8E4600996D92 /* WelcomeViewController.swift in Sources */,
+				FC8BDA53256257300083294E /* MyOrderSummaryDetailTableViewCell.swift in Sources */,
+				FC8BDA492562506B0083294E /* MyOrderLocationTableViewCell.swift in Sources */,
 				FC4F9DD0255B9C5C00996D92 /* FontName.swift in Sources */,
 				FC16AF282560CADF00180235 /* BasketViewController.swift in Sources */,
 				FC4FBA24255E239900BD4A1E /* UIView+Extension.swift in Sources */,
 				FC3FDF7B255F4F2B00AEF21E /* MainTabBarViewController.swift in Sources */,
+				FC8BDA4425623FAE0083294E /* MyOrderDeliverTableViewCell.swift in Sources */,
 				FCBF666D255D116900E86744 /* IconName.swift in Sources */,
 				FC4F9D98255B8E4600996D92 /* AppDelegate.swift in Sources */,
 				FC16AF3025612F2F00180235 /* BasketDeliverTableViewCell.swift in Sources */,
+				FC8BDA66256262040083294E /* FeedbackViewController.swift in Sources */,
+				FC8BDA58256258E20083294E /* MyOrderSubtotalTableViewCell.swift in Sources */,
+				FC8BDA3D25623C3C0083294E /* MyOrderDetailViewController.swift in Sources */,
 				FC4F9DF3255BE0C300996D92 /* ColorName.swift in Sources */,
 				FCBF6671255D124800E86744 /* UITextField+Extension.swift in Sources */,
 				FC16AF35256130FF00180235 /* BasketOrderTableViewCell.swift in Sources */,
@@ -548,14 +624,18 @@
 				FC16AF3F25613A0B00180235 /* BasketPaymentTableViewCell.swift in Sources */,
 				FC16AF062560A33900180235 /* UICollectionView+Extension.swift in Sources */,
 				FCBF667E255D1A8700E86744 /* CheckEmailViewController.swift in Sources */,
+				FC8BDA6125625E130083294E /* BottomSheetViewController.swift in Sources */,
 				FCD228B2255CA49900FDCB5A /* CreateAccountViewController.swift in Sources */,
 				FC16AEFB255FAB5000180235 /* KitchenDetailCollectionViewCell.swift in Sources */,
 				FC4F9E02255C2EC000996D92 /* CustomButton.swift in Sources */,
 				FCE2C1E7255DFDB000BF246A /* CustomButtonSmall.swift in Sources */,
 				FC16AF3A256137F900180235 /* BasketOrderTotalTableViewCell.swift in Sources */,
 				FC4F9DF8255C2B2200996D92 /* CustomLabel.swift in Sources */,
+				FC8BDA5D25625A810083294E /* MyOrderTotalTableViewCell.swift in Sources */,
+				FC8BDAC22563CA2D0083294E /* CustomTextView.swift in Sources */,
 				FCD228B7255CA99500FDCB5A /* CustomTextField.swift in Sources */,
 				FCE2C1DD255D315400BF246A /* HomeViewController.swift in Sources */,
+				FC8BDA4E256256220083294E /* MyOrderSummaryTableViewCell.swift in Sources */,
 				FC8BDA3825621EA10083294E /* MyOrderTableViewCell.swift in Sources */,
 				FCBF6675255D174100E86744 /* LoginViewController.swift in Sources */,
 				FC16AEFF255FAC2400180235 /* CellName.swift in Sources */,

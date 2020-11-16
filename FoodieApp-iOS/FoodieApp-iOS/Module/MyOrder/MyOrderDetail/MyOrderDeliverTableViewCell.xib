@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17506" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17505"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Poppins-Medium.ttf">
+            <string>Poppins-Medium</string>
+        </array>
+        <array key="Poppins-Regular.ttf">
+            <string>Poppins-Regular</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="84" id="KGk-i7-Jjw" customClass="MyOrderDeliverTableViewCell" customModule="FoodieApp_iOS" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="84"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="84"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="dishes" translatesAutoresizingMaskIntoConstraints="NO" id="bPR-Sa-puu">
+                        <rect key="frame" x="28" y="23" width="37" height="37"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="37" id="K6n-b0-VnI"/>
+                            <constraint firstAttribute="height" constant="37" id="rRI-3f-lyg"/>
+                        </constraints>
+                    </imageView>
+                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" translatesAutoresizingMaskIntoConstraints="NO" id="A7A-li-nzB">
+                        <rect key="frame" x="88" y="24" width="204" height="35.5"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Deli Kitchen, Babakan" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TWD-gc-qdb">
+                                <rect key="frame" x="0.0" y="0.0" width="158" height="19"/>
+                                <fontDescription key="fontDescription" name="Poppins-Medium" family="Poppins" pointSize="16"/>
+                                <color key="textColor" name="darkGray-color"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Delivered" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gjx-98-1YR">
+                                <rect key="frame" x="0.0" y="19" width="58.5" height="16.5"/>
+                                <fontDescription key="fontDescription" name="Poppins-Regular" family="Poppins" pointSize="14"/>
+                                <color key="textColor" name="lightGray-color"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                    </stackView>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="bPR-Sa-puu" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="23" id="1PS-Nz-E0e"/>
+                    <constraint firstItem="A7A-li-nzB" firstAttribute="centerY" secondItem="bPR-Sa-puu" secondAttribute="centerY" id="26P-3C-jUF"/>
+                    <constraint firstAttribute="trailing" secondItem="A7A-li-nzB" secondAttribute="trailing" constant="28" id="2os-6N-qdy"/>
+                    <constraint firstAttribute="bottom" secondItem="bPR-Sa-puu" secondAttribute="bottom" constant="24" id="CFH-EF-QHZ"/>
+                    <constraint firstItem="A7A-li-nzB" firstAttribute="leading" secondItem="bPR-Sa-puu" secondAttribute="trailing" constant="23" id="Qnw-J6-DwG"/>
+                    <constraint firstItem="bPR-Sa-puu" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="28" id="seC-3p-sna"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <point key="canvasLocation" x="137.68115942028987" y="142.63392857142856"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="dishes" width="37" height="37"/>
+        <namedColor name="darkGray-color">
+            <color red="0.14499999582767487" green="0.18799999356269836" blue="0.23100000619888306" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="lightGray-color">
+            <color red="0.31400001049041748" green="0.36899998784065247" blue="0.45100000500679016" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
+</document>
