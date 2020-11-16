@@ -32,8 +32,7 @@ struct TabBar {
     }
 
     static private func myOrderVC() -> UIViewController {
-        let myOrderVC = UIViewController()
-        myOrderVC.view.backgroundColor = .systemRed
+        let myOrderVC = MyOrderViewController()
         myOrderVC.tabBarItem = UITabBarItem(
             title: "My Order",
             image: Icon.myOrder,

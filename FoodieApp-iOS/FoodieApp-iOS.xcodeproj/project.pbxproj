@@ -47,6 +47,10 @@
 		FC4FBA24255E239900BD4A1E /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC4FBA23255E239900BD4A1E /* UIView+Extension.swift */; };
 		FC4FBA28255E253600BD4A1E /* HomeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC4FBA26255E253600BD4A1E /* HomeTableViewCell.swift */; };
 		FC4FBA29255E253600BD4A1E /* HomeTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FC4FBA27255E253600BD4A1E /* HomeTableViewCell.xib */; };
+		FC8BDA2F256215700083294E /* MyOrderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC8BDA2D256215700083294E /* MyOrderViewController.swift */; };
+		FC8BDA30256215700083294E /* MyOrderViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FC8BDA2E256215700083294E /* MyOrderViewController.xib */; };
+		FC8BDA3825621EA10083294E /* MyOrderTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC8BDA3625621EA10083294E /* MyOrderTableViewCell.swift */; };
+		FC8BDA3925621EA10083294E /* MyOrderTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FC8BDA3725621EA10083294E /* MyOrderTableViewCell.xib */; };
 		FCBF666D255D116900E86744 /* IconName.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCBF666C255D116900E86744 /* IconName.swift */; };
 		FCBF6671255D124800E86744 /* UITextField+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCBF6670255D124800E86744 /* UITextField+Extension.swift */; };
 		FCBF6675255D174100E86744 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCBF6673255D174100E86744 /* LoginViewController.swift */; };
@@ -107,6 +111,10 @@
 		FC4FBA23255E239900BD4A1E /* UIView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extension.swift"; sourceTree = "<group>"; };
 		FC4FBA26255E253600BD4A1E /* HomeTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTableViewCell.swift; sourceTree = "<group>"; };
 		FC4FBA27255E253600BD4A1E /* HomeTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeTableViewCell.xib; sourceTree = "<group>"; };
+		FC8BDA2D256215700083294E /* MyOrderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyOrderViewController.swift; sourceTree = "<group>"; };
+		FC8BDA2E256215700083294E /* MyOrderViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MyOrderViewController.xib; sourceTree = "<group>"; };
+		FC8BDA3625621EA10083294E /* MyOrderTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyOrderTableViewCell.swift; sourceTree = "<group>"; };
+		FC8BDA3725621EA10083294E /* MyOrderTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MyOrderTableViewCell.xib; sourceTree = "<group>"; };
 		FCBF666C255D116900E86744 /* IconName.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IconName.swift; sourceTree = "<group>"; };
 		FCBF6670255D124800E86744 /* UITextField+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITextField+Extension.swift"; sourceTree = "<group>"; };
 		FCBF6673255D174100E86744 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
@@ -240,6 +248,7 @@
 				FCD228AF255CA45200FDCB5A /* CreateAccount */,
 				FCBF6681255D1A9500E86744 /* CheckEmail */,
 				FCE2C1E0255D315800BF246A /* Home */,
+				FC8BDA32256215740083294E /* MyOrder */,
 			);
 			path = Module;
 			sourceTree = "<group>";
@@ -304,6 +313,17 @@
 				FC16AF082560B86E00180235 /* CustomView.swift */,
 			);
 			path = CustomComponents;
+			sourceTree = "<group>";
+		};
+		FC8BDA32256215740083294E /* MyOrder */ = {
+			isa = PBXGroup;
+			children = (
+				FC8BDA2D256215700083294E /* MyOrderViewController.swift */,
+				FC8BDA2E256215700083294E /* MyOrderViewController.xib */,
+				FC8BDA3625621EA10083294E /* MyOrderTableViewCell.swift */,
+				FC8BDA3725621EA10083294E /* MyOrderTableViewCell.xib */,
+			);
+			path = MyOrder;
 			sourceTree = "<group>";
 		};
 		FCBF666F255D122B00E86744 /* Extensions */ = {
@@ -423,6 +443,7 @@
 				FCE2C1DE255D315400BF246A /* HomeViewController.xib in Resources */,
 				FC16AEFC255FAB5000180235 /* KitchenDetailCollectionViewCell.xib in Resources */,
 				FCBF6676255D174100E86744 /* LoginViewController.xib in Resources */,
+				FC8BDA3925621EA10083294E /* MyOrderTableViewCell.xib in Resources */,
 				FC4F9DC2255B9A1900996D92 /* Poppins-SemiBold.ttf in Resources */,
 				FC16AF3125612F2F00180235 /* BasketDeliverTableViewCell.xib in Resources */,
 				FC4F9DC5255B9A6900996D92 /* Poppins-Bold.ttf in Resources */,
@@ -436,6 +457,7 @@
 				FC16AF3B256137F900180235 /* BasketOrderTotalTableViewCell.xib in Resources */,
 				FC4F9DBF255B99A900996D92 /* Poppins-Regular.ttf in Resources */,
 				FCBF667F255D1A8700E86744 /* CheckEmailViewController.xib in Resources */,
+				FC8BDA30256215700083294E /* MyOrderViewController.xib in Resources */,
 				FCD228B3255CA49900FDCB5A /* CreateAccountViewController.xib in Resources */,
 				FC16AF292560CADF00180235 /* BasketViewController.xib in Resources */,
 				FC16AF0E2560BC6300180235 /* FoodDetailViewController.xib in Resources */,
@@ -508,6 +530,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FC8BDA2F256215700083294E /* MyOrderViewController.swift in Sources */,
 				FC4F9D9C255B8E4600996D92 /* WelcomeViewController.swift in Sources */,
 				FC4F9DD0255B9C5C00996D92 /* FontName.swift in Sources */,
 				FC16AF282560CADF00180235 /* BasketViewController.swift in Sources */,
@@ -533,6 +556,7 @@
 				FC4F9DF8255C2B2200996D92 /* CustomLabel.swift in Sources */,
 				FCD228B7255CA99500FDCB5A /* CustomTextField.swift in Sources */,
 				FCE2C1DD255D315400BF246A /* HomeViewController.swift in Sources */,
+				FC8BDA3825621EA10083294E /* MyOrderTableViewCell.swift in Sources */,
 				FCBF6675255D174100E86744 /* LoginViewController.swift in Sources */,
 				FC16AEFF255FAC2400180235 /* CellName.swift in Sources */,
 				FC3FDF81255F55AA00AEF21E /* KitchenDetailViewController.swift in Sources */,
@@ -686,7 +710,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = 3SMXMP42NY;
 				INFOPLIST_FILE = "FoodieApp-iOS/SupportFiles/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -707,7 +731,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = 3SMXMP42NY;
 				INFOPLIST_FILE = "FoodieApp-iOS/SupportFiles/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (

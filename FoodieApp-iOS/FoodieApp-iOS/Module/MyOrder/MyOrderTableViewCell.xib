@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17506" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17505"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Poppins-Medium.ttf">
+            <string>Poppins-Medium</string>
+        </array>
+        <array key="Poppins-Regular.ttf">
+            <string>Poppins-Regular</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="95" id="KGk-i7-Jjw" customClass="MyOrderTableViewCell" customModule="FoodieApp_iOS" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="95"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" ambiguous="YES" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="95"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="GaY-aC-tBm" customClass="CustomView" customModule="FoodieApp_iOS" customModuleProvider="target">
+                        <rect key="frame" x="8" y="8" width="304" height="56"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="dishes" translatesAutoresizingMaskIntoConstraints="NO" id="r2j-PH-kum">
+                                <rect key="frame" x="28" y="22" width="37" height="37"/>
+                            </imageView>
+                            <stackView opaque="NO" contentMode="scaleToFill" distribution="equalCentering" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="WVX-i0-Oyu">
+                                <rect key="frame" x="87" y="22" width="189" height="22.5"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Fish and Chips" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ffc-Fb-Ob7">
+                                        <rect key="frame" x="0.0" y="0.0" width="118.5" height="22.5"/>
+                                        <fontDescription key="fontDescription" name="Poppins-Medium" family="Poppins" pointSize="16"/>
+                                        <color key="textColor" name="darkGray-color"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="1 Oct" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0Cg-nK-1QD">
+                                        <rect key="frame" x="156" y="0.0" width="33" height="22.5"/>
+                                        <fontDescription key="fontDescription" name="Poppins-Regular" family="Poppins" pointSize="14"/>
+                                        <color key="textColor" name="lightGray-color"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                            </stackView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="1 item" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tG0-pk-GMG">
+                                <rect key="frame" x="87" y="44.5" width="40" height="20"/>
+                                <fontDescription key="fontDescription" name="Poppins-Regular" family="Poppins" pointSize="14"/>
+                                <color key="textColor" name="lightGray-color"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="WVX-i0-Oyu" secondAttribute="trailing" constant="28" id="0QL-VA-TEE"/>
+                            <constraint firstItem="tG0-pk-GMG" firstAttribute="top" secondItem="WVX-i0-Oyu" secondAttribute="bottom" id="449-j1-Gof"/>
+                            <constraint firstItem="tG0-pk-GMG" firstAttribute="leading" secondItem="r2j-PH-kum" secondAttribute="trailing" constant="22" id="4Ml-HJ-2Kd"/>
+                            <constraint firstItem="WVX-i0-Oyu" firstAttribute="top" secondItem="GaY-aC-tBm" secondAttribute="top" constant="22" id="6wx-Om-qju"/>
+                            <constraint firstItem="WVX-i0-Oyu" firstAttribute="leading" secondItem="r2j-PH-kum" secondAttribute="trailing" constant="22" id="Ghm-mS-H50"/>
+                            <constraint firstItem="r2j-PH-kum" firstAttribute="leading" secondItem="GaY-aC-tBm" secondAttribute="leading" constant="28" id="ce1-dY-V8o"/>
+                            <constraint firstItem="r2j-PH-kum" firstAttribute="top" secondItem="GaY-aC-tBm" secondAttribute="top" constant="22" id="hqw-qY-okE"/>
+                            <constraint firstItem="tG0-pk-GMG" firstAttribute="leading" secondItem="WVX-i0-Oyu" secondAttribute="leading" id="thu-Cf-L3d"/>
+                        </constraints>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="color" keyPath="primaryColor">
+                                <color key="value" red="0.94509803921568625" green="0.96078431372549022" blue="0.97647058823529409" alpha="1" colorSpace="calibratedRGB"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="trailing" secondItem="GaY-aC-tBm" secondAttribute="trailing" constant="8" id="190-mb-zxz"/>
+                    <constraint firstItem="GaY-aC-tBm" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="8" id="2Mx-wd-ced"/>
+                    <constraint firstAttribute="bottom" secondItem="GaY-aC-tBm" secondAttribute="bottom" constant="8" id="7tp-KW-Eat"/>
+                    <constraint firstItem="GaY-aC-tBm" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="8" id="ZeQ-F4-h0j"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <point key="canvasLocation" x="-13.043478260869566" y="146.98660714285714"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="dishes" width="37" height="37"/>
+        <namedColor name="darkGray-color">
+            <color red="0.14499999582767487" green="0.18799999356269836" blue="0.23100000619888306" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="lightGray-color">
+            <color red="0.31400001049041748" green="0.36899998784065247" blue="0.45100000500679016" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
+</document>

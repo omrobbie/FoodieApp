@@ -13,4 +13,6 @@ struct CellName {
     static let basketOrderCell = "BasketOrderTableViewCell"
     static let basketOrderTotalCell = "BasketOrderTotalTableViewCell"
     static let basketPaymentCell = "BasketPaymentTableViewCell"
+
+    static let myOrderCell = "MyOrderTableViewCell"
 }
