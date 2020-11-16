@@ -54,19 +54,19 @@
                     </connections>
                 </button>
                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Vt3-im-tYC">
-                    <rect key="frame" x="0.0" y="240" width="414" height="120"/>
+                    <rect key="frame" x="0.0" y="240" width="414" height="109"/>
                     <subviews>
                         <stackView opaque="NO" contentMode="scaleToFill" distribution="equalCentering" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="b3L-o2-ycq">
-                            <rect key="frame" x="28" y="22" width="358" height="28"/>
+                            <rect key="frame" x="28" y="22" width="358" height="23.5"/>
                             <subviews>
                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Fish and Chips" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4TL-MS-JKX">
-                                    <rect key="frame" x="0.0" y="0.0" width="149" height="28"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="134" height="23.5"/>
                                     <fontDescription key="fontDescription" name="Poppins-SemiBold" family="Poppins" pointSize="20"/>
                                     <nil key="textColor"/>
                                     <nil key="highlightedColor"/>
                                 </label>
                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="40.000" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3h5-tJ-o6i">
-                                    <rect key="frame" x="287.5" y="0.0" width="70.5" height="28"/>
+                                    <rect key="frame" x="296.5" y="0.0" width="61.5" height="23.5"/>
                                     <fontDescription key="fontDescription" name="Poppins-SemiBold" family="Poppins" pointSize="20"/>
                                     <nil key="textColor"/>
                                     <nil key="highlightedColor"/>
@@ -74,7 +74,7 @@
                             </subviews>
                         </stackView>
                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Fresh Tuna with homemade spiced tomato sauce and cream" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Iwt-yV-NQ9">
-                            <rect key="frame" x="28" y="60" width="358" height="39.5"/>
+                            <rect key="frame" x="28" y="55.5" width="358" height="33"/>
                             <fontDescription key="fontDescription" name="Poppins-Regular" family="Poppins" pointSize="14"/>
                             <color key="textColor" name="lightGray-color"/>
                             <nil key="highlightedColor"/>
@@ -92,7 +92,7 @@
                     </constraints>
                 </view>
                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="BH3-0J-1RH">
-                    <rect key="frame" x="0.0" y="360" width="414" height="12"/>
+                    <rect key="frame" x="0.0" y="349" width="414" height="12"/>
                     <color key="backgroundColor" systemColor="systemGray6Color"/>
                     <constraints>
                         <constraint firstAttribute="height" constant="12" id="iSr-fN-dkM"/>
@@ -118,7 +118,7 @@
                     </constraints>
                 </view>
                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="a96-sQ-Np6" customClass="GMStepper" customModule="GMStepper">
-                    <rect key="frame" x="87" y="442" width="240" height="43"/>
+                    <rect key="frame" x="87" y="431" width="240" height="43"/>
                     <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     <constraints>
                         <constraint firstAttribute="height" constant="43" id="Iti-eO-gr9"/>

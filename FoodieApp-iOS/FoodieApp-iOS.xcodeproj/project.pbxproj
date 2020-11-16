@@ -16,6 +16,16 @@
 		FC16AF092560B86E00180235 /* CustomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC16AF082560B86E00180235 /* CustomView.swift */; };
 		FC16AF0D2560BC6300180235 /* FoodDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC16AF0B2560BC6300180235 /* FoodDetailViewController.swift */; };
 		FC16AF0E2560BC6300180235 /* FoodDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FC16AF0C2560BC6300180235 /* FoodDetailViewController.xib */; };
+		FC16AF282560CADF00180235 /* BasketViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC16AF262560CADF00180235 /* BasketViewController.swift */; };
+		FC16AF292560CADF00180235 /* BasketViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FC16AF272560CADF00180235 /* BasketViewController.xib */; };
+		FC16AF3025612F2F00180235 /* BasketDeliverTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC16AF2E25612F2F00180235 /* BasketDeliverTableViewCell.swift */; };
+		FC16AF3125612F2F00180235 /* BasketDeliverTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FC16AF2F25612F2F00180235 /* BasketDeliverTableViewCell.xib */; };
+		FC16AF35256130FF00180235 /* BasketOrderTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC16AF33256130FF00180235 /* BasketOrderTableViewCell.swift */; };
+		FC16AF36256130FF00180235 /* BasketOrderTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FC16AF34256130FF00180235 /* BasketOrderTableViewCell.xib */; };
+		FC16AF3A256137F900180235 /* BasketOrderTotalTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC16AF38256137F900180235 /* BasketOrderTotalTableViewCell.swift */; };
+		FC16AF3B256137F900180235 /* BasketOrderTotalTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FC16AF39256137F900180235 /* BasketOrderTotalTableViewCell.xib */; };
+		FC16AF3F25613A0B00180235 /* BasketPaymentTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC16AF3D25613A0B00180235 /* BasketPaymentTableViewCell.swift */; };
+		FC16AF4025613A0B00180235 /* BasketPaymentTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FC16AF3E25613A0B00180235 /* BasketPaymentTableViewCell.xib */; };
 		FC3161F5255CB71600D3ED8E /* .swiftlint.yml in Resources */ = {isa = PBXBuildFile; fileRef = FC3161F4255CB71600D3ED8E /* .swiftlint.yml */; };
 		FC3FDF7B255F4F2B00AEF21E /* MainTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC3FDF7A255F4F2B00AEF21E /* MainTabBarViewController.swift */; };
 		FC3FDF81255F55AA00AEF21E /* KitchenDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC3FDF7F255F55AA00AEF21E /* KitchenDetailViewController.swift */; };
@@ -64,6 +74,16 @@
 		FC16AF082560B86E00180235 /* CustomView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomView.swift; sourceTree = "<group>"; };
 		FC16AF0B2560BC6300180235 /* FoodDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodDetailViewController.swift; sourceTree = "<group>"; };
 		FC16AF0C2560BC6300180235 /* FoodDetailViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FoodDetailViewController.xib; sourceTree = "<group>"; };
+		FC16AF262560CADF00180235 /* BasketViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasketViewController.swift; sourceTree = "<group>"; };
+		FC16AF272560CADF00180235 /* BasketViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BasketViewController.xib; sourceTree = "<group>"; };
+		FC16AF2E25612F2F00180235 /* BasketDeliverTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasketDeliverTableViewCell.swift; sourceTree = "<group>"; };
+		FC16AF2F25612F2F00180235 /* BasketDeliverTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BasketDeliverTableViewCell.xib; sourceTree = "<group>"; };
+		FC16AF33256130FF00180235 /* BasketOrderTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasketOrderTableViewCell.swift; sourceTree = "<group>"; };
+		FC16AF34256130FF00180235 /* BasketOrderTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BasketOrderTableViewCell.xib; sourceTree = "<group>"; };
+		FC16AF38256137F900180235 /* BasketOrderTotalTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasketOrderTotalTableViewCell.swift; sourceTree = "<group>"; };
+		FC16AF39256137F900180235 /* BasketOrderTotalTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BasketOrderTotalTableViewCell.xib; sourceTree = "<group>"; };
+		FC16AF3D25613A0B00180235 /* BasketPaymentTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasketPaymentTableViewCell.swift; sourceTree = "<group>"; };
+		FC16AF3E25613A0B00180235 /* BasketPaymentTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BasketPaymentTableViewCell.xib; sourceTree = "<group>"; };
 		FC3161F4255CB71600D3ED8E /* .swiftlint.yml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.yaml; path = .swiftlint.yml; sourceTree = SOURCE_ROOT; };
 		FC3FDF7A255F4F2B00AEF21E /* MainTabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarViewController.swift; sourceTree = "<group>"; };
 		FC3FDF7F255F55AA00AEF21E /* KitchenDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KitchenDetailViewController.swift; sourceTree = "<group>"; };
@@ -140,6 +160,23 @@
 			path = FoodDetail;
 			sourceTree = "<group>";
 		};
+		FC16AF2B2560CAE200180235 /* Basket */ = {
+			isa = PBXGroup;
+			children = (
+				FC16AF262560CADF00180235 /* BasketViewController.swift */,
+				FC16AF272560CADF00180235 /* BasketViewController.xib */,
+				FC16AF2E25612F2F00180235 /* BasketDeliverTableViewCell.swift */,
+				FC16AF2F25612F2F00180235 /* BasketDeliverTableViewCell.xib */,
+				FC16AF33256130FF00180235 /* BasketOrderTableViewCell.swift */,
+				FC16AF34256130FF00180235 /* BasketOrderTableViewCell.xib */,
+				FC16AF38256137F900180235 /* BasketOrderTotalTableViewCell.swift */,
+				FC16AF39256137F900180235 /* BasketOrderTotalTableViewCell.xib */,
+				FC16AF3D25613A0B00180235 /* BasketPaymentTableViewCell.swift */,
+				FC16AF3E25613A0B00180235 /* BasketPaymentTableViewCell.xib */,
+			);
+			path = Basket;
+			sourceTree = "<group>";
+		};
 		FC3FDF79255F4EF200AEF21E /* Helpers */ = {
 			isa = PBXGroup;
 			children = (
@@ -155,6 +192,7 @@
 				FC3FDF80255F55AA00AEF21E /* KitchenDetailViewController.xib */,
 				FC16AEF9255FAB5000180235 /* KitchenDetailCollectionViewCell.swift */,
 				FC16AEFA255FAB5000180235 /* KitchenDetailCollectionViewCell.xib */,
+				FC16AF2B2560CAE200180235 /* Basket */,
 				FC16AF102560BC6700180235 /* FoodDetail */,
 			);
 			path = KitchenDetail;
@@ -386,15 +424,20 @@
 				FC16AEFC255FAB5000180235 /* KitchenDetailCollectionViewCell.xib in Resources */,
 				FCBF6676255D174100E86744 /* LoginViewController.xib in Resources */,
 				FC4F9DC2255B9A1900996D92 /* Poppins-SemiBold.ttf in Resources */,
+				FC16AF3125612F2F00180235 /* BasketDeliverTableViewCell.xib in Resources */,
 				FC4F9DC5255B9A6900996D92 /* Poppins-Bold.ttf in Resources */,
 				FC4F9DA4255B8E4700996D92 /* LaunchScreen.storyboard in Resources */,
+				FC16AF36256130FF00180235 /* BasketOrderTableViewCell.xib in Resources */,
 				FC4F9DA1255B8E4700996D92 /* Assets.xcassets in Resources */,
 				FC4FBA29255E253600BD4A1E /* HomeTableViewCell.xib in Resources */,
 				FC4F9DCB255B9AD800996D92 /* Poppins-Medium.ttf in Resources */,
+				FC16AF4025613A0B00180235 /* BasketPaymentTableViewCell.xib in Resources */,
 				FC4F9D9F255B8E4600996D92 /* Main.storyboard in Resources */,
+				FC16AF3B256137F900180235 /* BasketOrderTotalTableViewCell.xib in Resources */,
 				FC4F9DBF255B99A900996D92 /* Poppins-Regular.ttf in Resources */,
 				FCBF667F255D1A8700E86744 /* CheckEmailViewController.xib in Resources */,
 				FCD228B3255CA49900FDCB5A /* CreateAccountViewController.xib in Resources */,
+				FC16AF292560CADF00180235 /* BasketViewController.xib in Resources */,
 				FC16AF0E2560BC6300180235 /* FoodDetailViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -467,21 +510,26 @@
 			files = (
 				FC4F9D9C255B8E4600996D92 /* WelcomeViewController.swift in Sources */,
 				FC4F9DD0255B9C5C00996D92 /* FontName.swift in Sources */,
+				FC16AF282560CADF00180235 /* BasketViewController.swift in Sources */,
 				FC4FBA24255E239900BD4A1E /* UIView+Extension.swift in Sources */,
 				FC3FDF7B255F4F2B00AEF21E /* MainTabBarViewController.swift in Sources */,
 				FCBF666D255D116900E86744 /* IconName.swift in Sources */,
 				FC4F9D98255B8E4600996D92 /* AppDelegate.swift in Sources */,
+				FC16AF3025612F2F00180235 /* BasketDeliverTableViewCell.swift in Sources */,
 				FC4F9DF3255BE0C300996D92 /* ColorName.swift in Sources */,
 				FCBF6671255D124800E86744 /* UITextField+Extension.swift in Sources */,
+				FC16AF35256130FF00180235 /* BasketOrderTableViewCell.swift in Sources */,
 				FC16AF0D2560BC6300180235 /* FoodDetailViewController.swift in Sources */,
 				FC16AEF4255FA5BC00180235 /* UIViewController+Extension.swift in Sources */,
 				FC16AF092560B86E00180235 /* CustomView.swift in Sources */,
+				FC16AF3F25613A0B00180235 /* BasketPaymentTableViewCell.swift in Sources */,
 				FC16AF062560A33900180235 /* UICollectionView+Extension.swift in Sources */,
 				FCBF667E255D1A8700E86744 /* CheckEmailViewController.swift in Sources */,
 				FCD228B2255CA49900FDCB5A /* CreateAccountViewController.swift in Sources */,
 				FC16AEFB255FAB5000180235 /* KitchenDetailCollectionViewCell.swift in Sources */,
 				FC4F9E02255C2EC000996D92 /* CustomButton.swift in Sources */,
 				FCE2C1E7255DFDB000BF246A /* CustomButtonSmall.swift in Sources */,
+				FC16AF3A256137F900180235 /* BasketOrderTotalTableViewCell.swift in Sources */,
 				FC4F9DF8255C2B2200996D92 /* CustomLabel.swift in Sources */,
 				FCD228B7255CA99500FDCB5A /* CustomTextField.swift in Sources */,
 				FCE2C1DD255D315400BF246A /* HomeViewController.swift in Sources */,

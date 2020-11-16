@@ -46,7 +46,9 @@ class KitchenDetailViewController: UIViewController {
     }
 
     @IBAction func btnViewBasketTapped(_ sender: Any) {
-        print(viewBasketTotal?.text ?? "")
+        let basketVC = BasketViewController()
+        basketVC.modalPresentationStyle = .fullScreen
+        presentDetail(basketVC)
     }
 
     @IBAction func btnBackTapped(_ sender: Any) {
@@ -81,6 +83,7 @@ extension KitchenDetailViewController: UICollectionViewDelegateFlowLayout,
 
     func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
         print("Item \(indexPath.row)")
+        showViewBasketBox()
 
         let foodDetailVC = FoodDetailViewController()
         foodDetailVC.modalPresentationStyle = .fullScreen
