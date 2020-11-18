@@ -23,7 +23,9 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
             withIdentifier: "WelcomeViewController"
         ) as? WelcomeViewController
 
-        window?.rootViewController = welcomeVC
+        let isLoggedIn = true // TODO: Check from UserDefaults
+
+        window?.rootViewController = isLoggedIn ? TabBar.viewController() : welcomeVC
         window?.makeKeyAndVisible()
 
         return true
