@@ -18,7 +18,12 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         IQKeyboardManager.shared.enable = true
 
-        window?.rootViewController = TabBar.viewController()
+        let storyboard = UIStoryboard(name: "Main", bundle: nil)
+        let welcomeVC = storyboard.instantiateViewController(
+            withIdentifier: "WelcomeViewController"
+        ) as? WelcomeViewController
+
+        window?.rootViewController = welcomeVC
         window?.makeKeyAndVisible()
 
         return true
