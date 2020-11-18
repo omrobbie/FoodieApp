@@ -43,8 +43,7 @@ struct TabBar {
     }
 
     static private func accountVC() -> UIViewController {
-        let accountVC = UIViewController()
-        accountVC.view.backgroundColor = .systemBlue
+        let accountVC = ProfileViewController()
         accountVC.tabBarItem = UITabBarItem(
             title: "Account",
             image: Icon.account,

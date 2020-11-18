@@ -69,6 +69,10 @@
 		FC8BDA66256262040083294E /* FeedbackViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC8BDA64256262040083294E /* FeedbackViewController.swift */; };
 		FC8BDA67256262040083294E /* FeedbackViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FC8BDA65256262040083294E /* FeedbackViewController.xib */; };
 		FC8BDAC22563CA2D0083294E /* CustomTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC8BDAC12563CA2D0083294E /* CustomTextView.swift */; };
+		FC8BDAC62564BB850083294E /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC8BDAC42564BB840083294E /* ProfileViewController.swift */; };
+		FC8BDAC72564BB850083294E /* ProfileViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FC8BDAC52564BB840083294E /* ProfileViewController.xib */; };
+		FC8BDACE2564C8200083294E /* ProfileEditViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC8BDACC2564C8200083294E /* ProfileEditViewController.swift */; };
+		FC8BDACF2564C8200083294E /* ProfileEditViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FC8BDACD2564C8200083294E /* ProfileEditViewController.xib */; };
 		FCBF666D255D116900E86744 /* IconName.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCBF666C255D116900E86744 /* IconName.swift */; };
 		FCBF6671255D124800E86744 /* UITextField+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCBF6670255D124800E86744 /* UITextField+Extension.swift */; };
 		FCBF6675255D174100E86744 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCBF6673255D174100E86744 /* LoginViewController.swift */; };
@@ -151,6 +155,10 @@
 		FC8BDA64256262040083294E /* FeedbackViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedbackViewController.swift; sourceTree = "<group>"; };
 		FC8BDA65256262040083294E /* FeedbackViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FeedbackViewController.xib; sourceTree = "<group>"; };
 		FC8BDAC12563CA2D0083294E /* CustomTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextView.swift; sourceTree = "<group>"; };
+		FC8BDAC42564BB840083294E /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		FC8BDAC52564BB840083294E /* ProfileViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ProfileViewController.xib; sourceTree = "<group>"; };
+		FC8BDACC2564C8200083294E /* ProfileEditViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileEditViewController.swift; sourceTree = "<group>"; };
+		FC8BDACD2564C8200083294E /* ProfileEditViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ProfileEditViewController.xib; sourceTree = "<group>"; };
 		FCBF666C255D116900E86744 /* IconName.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IconName.swift; sourceTree = "<group>"; };
 		FCBF6670255D124800E86744 /* UITextField+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITextField+Extension.swift"; sourceTree = "<group>"; };
 		FCBF6673255D174100E86744 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
@@ -286,6 +294,7 @@
 				FCBF6681255D1A9500E86744 /* CheckEmail */,
 				FCE2C1E0255D315800BF246A /* Home */,
 				FC8BDA32256215740083294E /* MyOrder */,
+				FC8BDAC92564BB8A0083294E /* Profile */,
 			);
 			path = Module;
 			sourceTree = "<group>";
@@ -386,6 +395,25 @@
 				FC8BDA65256262040083294E /* FeedbackViewController.xib */,
 			);
 			path = MyOrderDetail;
+			sourceTree = "<group>";
+		};
+		FC8BDAC92564BB8A0083294E /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				FC8BDAC42564BB840083294E /* ProfileViewController.swift */,
+				FC8BDAC52564BB840083294E /* ProfileViewController.xib */,
+				FC8BDAD12564C8390083294E /* ProfileEdit */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		FC8BDAD12564C8390083294E /* ProfileEdit */ = {
+			isa = PBXGroup;
+			children = (
+				FC8BDACC2564C8200083294E /* ProfileEditViewController.swift */,
+				FC8BDACD2564C8200083294E /* ProfileEditViewController.xib */,
+			);
+			path = ProfileEdit;
 			sourceTree = "<group>";
 		};
 		FCBF666F255D122B00E86744 /* Extensions */ = {
@@ -526,8 +554,10 @@
 				FC4F9DBF255B99A900996D92 /* Poppins-Regular.ttf in Resources */,
 				FCBF667F255D1A8700E86744 /* CheckEmailViewController.xib in Resources */,
 				FC8BDA30256215700083294E /* MyOrderViewController.xib in Resources */,
+				FC8BDAC72564BB850083294E /* ProfileViewController.xib in Resources */,
 				FCD228B3255CA49900FDCB5A /* CreateAccountViewController.xib in Resources */,
 				FC16AF292560CADF00180235 /* BasketViewController.xib in Resources */,
+				FC8BDACF2564C8200083294E /* ProfileEditViewController.xib in Resources */,
 				FC16AF0E2560BC6300180235 /* FoodDetailViewController.xib in Resources */,
 				FC8BDA54256257300083294E /* MyOrderSummaryDetailTableViewCell.xib in Resources */,
 				FC8BDA4F256256220083294E /* MyOrderSummaryTableViewCell.xib in Resources */,
@@ -632,6 +662,7 @@
 				FC16AF3A256137F900180235 /* BasketOrderTotalTableViewCell.swift in Sources */,
 				FC4F9DF8255C2B2200996D92 /* CustomLabel.swift in Sources */,
 				FC8BDA5D25625A810083294E /* MyOrderTotalTableViewCell.swift in Sources */,
+				FC8BDACE2564C8200083294E /* ProfileEditViewController.swift in Sources */,
 				FC8BDAC22563CA2D0083294E /* CustomTextView.swift in Sources */,
 				FCD228B7255CA99500FDCB5A /* CustomTextField.swift in Sources */,
 				FCE2C1DD255D315400BF246A /* HomeViewController.swift in Sources */,
@@ -640,6 +671,7 @@
 				FCBF6675255D174100E86744 /* LoginViewController.swift in Sources */,
 				FC16AEFF255FAC2400180235 /* CellName.swift in Sources */,
 				FC3FDF81255F55AA00AEF21E /* KitchenDetailViewController.swift in Sources */,
+				FC8BDAC62564BB850083294E /* ProfileViewController.swift in Sources */,
 				FC4FBA28255E253600BD4A1E /* HomeTableViewCell.swift in Sources */,
 				FCE2C1E4255D9C3E00BF246A /* UISearchBar+Extension.swift in Sources */,
 			);
