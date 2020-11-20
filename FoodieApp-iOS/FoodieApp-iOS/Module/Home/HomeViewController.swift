@@ -37,8 +37,8 @@ class HomeViewController: UIViewController {
     }
 
     private func loadData() {
-        useCase.getKitchens { response in
-            switch response {
+        useCase.getKitchens { result in
+            switch result {
             case .success(let value):
                 DispatchQueue.main.async {
                     self.model = value
@@ -93,6 +93,9 @@ extension HomeViewController: UITableViewDelegate, UITableViewDataSource {
         guard let cell = tableView.dequeueReusableCell(withIdentifier: CellName.homeCell) as? HomeTableViewCell else {
             return UITableViewCell()
         }
+
+        let item = model[indexPath.row]
+        cell.parse(item)
 
         return cell
     }

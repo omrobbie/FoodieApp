@@ -12,5 +12,6 @@ target 'FoodieApp-iOS' do
   pod 'GMStepper'
   pod 'SwiftyStarRatingView'
   pod 'Alamofire'
+  pod 'Kingfisher'
 
 end

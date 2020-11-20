@@ -7,6 +7,7 @@
 
 struct Api {
     static let baseUrl = "https://omrobbie.com/cleq/"
+    static let imagePath = "\(Api.baseUrl)image/"
 }
 
 protocol EndPoint {
