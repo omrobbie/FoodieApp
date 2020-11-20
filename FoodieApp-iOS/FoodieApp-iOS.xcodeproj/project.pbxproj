@@ -27,6 +27,10 @@
 		FC16AF3F25613A0B00180235 /* BasketPaymentTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC16AF3D25613A0B00180235 /* BasketPaymentTableViewCell.swift */; };
 		FC16AF4025613A0B00180235 /* BasketPaymentTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FC16AF3E25613A0B00180235 /* BasketPaymentTableViewCell.xib */; };
 		FC3161F5255CB71600D3ED8E /* .swiftlint.yml in Resources */ = {isa = PBXBuildFile; fileRef = FC3161F4255CB71600D3ED8E /* .swiftlint.yml */; };
+		FC3367962567BE5400DBEA58 /* KItchenResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC3367952567BE5400DBEA58 /* KItchenResponse.swift */; };
+		FC3367992567BFA000DBEA58 /* RemoteDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC3367982567BFA000DBEA58 /* RemoteDataSource.swift */; };
+		FC33679C2567C14600DBEA58 /* ApiCall.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC33679B2567C14600DBEA58 /* ApiCall.swift */; };
+		FC3367A12567C3D700DBEA58 /* ErrorHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC3367A02567C3D700DBEA58 /* ErrorHandler.swift */; };
 		FC3FDF7B255F4F2B00AEF21E /* MainTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC3FDF7A255F4F2B00AEF21E /* MainTabBarViewController.swift */; };
 		FC3FDF81255F55AA00AEF21E /* KitchenDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC3FDF7F255F55AA00AEF21E /* KitchenDetailViewController.swift */; };
 		FC3FDF82255F55AA00AEF21E /* KitchenDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FC3FDF80255F55AA00AEF21E /* KitchenDetailViewController.xib */; };
@@ -111,6 +115,10 @@
 		FC16AF3D25613A0B00180235 /* BasketPaymentTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasketPaymentTableViewCell.swift; sourceTree = "<group>"; };
 		FC16AF3E25613A0B00180235 /* BasketPaymentTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BasketPaymentTableViewCell.xib; sourceTree = "<group>"; };
 		FC3161F4255CB71600D3ED8E /* .swiftlint.yml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.yaml; path = .swiftlint.yml; sourceTree = SOURCE_ROOT; };
+		FC3367952567BE5400DBEA58 /* KItchenResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KItchenResponse.swift; sourceTree = "<group>"; };
+		FC3367982567BFA000DBEA58 /* RemoteDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteDataSource.swift; sourceTree = "<group>"; };
+		FC33679B2567C14600DBEA58 /* ApiCall.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiCall.swift; sourceTree = "<group>"; };
+		FC3367A02567C3D700DBEA58 /* ErrorHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorHandler.swift; sourceTree = "<group>"; };
 		FC3FDF7A255F4F2B00AEF21E /* MainTabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarViewController.swift; sourceTree = "<group>"; };
 		FC3FDF7F255F55AA00AEF21E /* KitchenDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KitchenDetailViewController.swift; sourceTree = "<group>"; };
 		FC3FDF80255F55AA00AEF21E /* KitchenDetailViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = KitchenDetailViewController.xib; sourceTree = "<group>"; };
@@ -229,6 +237,49 @@
 			path = Basket;
 			sourceTree = "<group>";
 		};
+		FC33670F25672B0200DBEA58 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				FC3367912567BD6D00DBEA58 /* Data */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		FC3367912567BD6D00DBEA58 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				FC3367922567BD7600DBEA58 /* Remote */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		FC3367922567BD7600DBEA58 /* Remote */ = {
+			isa = PBXGroup;
+			children = (
+				FC3367932567BD8000DBEA58 /* Response */,
+				FC33679E2567C39300DBEA58 /* Utilities */,
+				FC3367982567BFA000DBEA58 /* RemoteDataSource.swift */,
+			);
+			path = Remote;
+			sourceTree = "<group>";
+		};
+		FC3367932567BD8000DBEA58 /* Response */ = {
+			isa = PBXGroup;
+			children = (
+				FC3367952567BE5400DBEA58 /* KItchenResponse.swift */,
+			);
+			path = Response;
+			sourceTree = "<group>";
+		};
+		FC33679E2567C39300DBEA58 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				FC33679B2567C14600DBEA58 /* ApiCall.swift */,
+				FC3367A02567C3D700DBEA58 /* ErrorHandler.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
 		FC3FDF79255F4EF200AEF21E /* Helpers */ = {
 			isa = PBXGroup;
 			children = (
@@ -274,6 +325,7 @@
 			children = (
 				FC3161F4255CB71600D3ED8E /* .swiftlint.yml */,
 				FC4F9DAE255B8F2E00996D92 /* App */,
+				FC33670F25672B0200DBEA58 /* Core */,
 				FC4F9DAD255B8F0700996D92 /* Module */,
 				FC3FDF79255F4EF200AEF21E /* Helpers */,
 				FCBF666F255D122B00E86744 /* Extensions */,
@@ -650,6 +702,8 @@
 				FC16AF35256130FF00180235 /* BasketOrderTableViewCell.swift in Sources */,
 				FC16AF0D2560BC6300180235 /* FoodDetailViewController.swift in Sources */,
 				FC16AEF4255FA5BC00180235 /* UIViewController+Extension.swift in Sources */,
+				FC3367962567BE5400DBEA58 /* KItchenResponse.swift in Sources */,
+				FC3367A12567C3D700DBEA58 /* ErrorHandler.swift in Sources */,
 				FC16AF092560B86E00180235 /* CustomView.swift in Sources */,
 				FC16AF3F25613A0B00180235 /* BasketPaymentTableViewCell.swift in Sources */,
 				FC16AF062560A33900180235 /* UICollectionView+Extension.swift in Sources */,
@@ -664,11 +718,13 @@
 				FC8BDA5D25625A810083294E /* MyOrderTotalTableViewCell.swift in Sources */,
 				FC8BDACE2564C8200083294E /* ProfileEditViewController.swift in Sources */,
 				FC8BDAC22563CA2D0083294E /* CustomTextView.swift in Sources */,
+				FC33679C2567C14600DBEA58 /* ApiCall.swift in Sources */,
 				FCD228B7255CA99500FDCB5A /* CustomTextField.swift in Sources */,
 				FCE2C1DD255D315400BF246A /* HomeViewController.swift in Sources */,
 				FC8BDA4E256256220083294E /* MyOrderSummaryTableViewCell.swift in Sources */,
 				FC8BDA3825621EA10083294E /* MyOrderTableViewCell.swift in Sources */,
 				FCBF6675255D174100E86744 /* LoginViewController.swift in Sources */,
+				FC3367992567BFA000DBEA58 /* RemoteDataSource.swift in Sources */,
 				FC16AEFF255FAC2400180235 /* CellName.swift in Sources */,
 				FC3FDF81255F55AA00AEF21E /* KitchenDetailViewController.swift in Sources */,
 				FC8BDAC62564BB850083294E /* ProfileViewController.swift in Sources */,

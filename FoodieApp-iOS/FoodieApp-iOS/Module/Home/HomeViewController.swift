@@ -20,6 +20,17 @@ class HomeViewController: UIViewController {
         setupSearchBar()
         setupFilters()
         setupTableView()
+
+        loadData()
+    }
+
+    private func loadData() {
+        RemoteDataSourceImpl.shared.getKitchens { results in
+            switch results {
+            case .success(let values): print(values)
+            case .failure(let error): print(error.errorDescription)
+            }
+        }
     }
 
     private func setupHeader() {
