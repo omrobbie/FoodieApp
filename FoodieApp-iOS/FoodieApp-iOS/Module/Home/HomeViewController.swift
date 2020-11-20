@@ -14,6 +14,8 @@ class HomeViewController: UIViewController {
     @IBOutlet weak var sgmFilters: UISegmentedControl!
     @IBOutlet weak var tableView: UITableView!
 
+    private var model: [KitchenModel] = []
+
     override func viewDidLoad() {
         super.viewDidLoad()
         setupHeader()
@@ -25,10 +27,16 @@ class HomeViewController: UIViewController {
     }
 
     private func loadData() {
-        RemoteDataSourceImpl.shared.getKitchens { results in
-            switch results {
-            case .success(let values): print(values)
-            case .failure(let error): print(error.errorDescription)
+        let remote = RemoteDataSourceImpl.shared
+        let repo = KitchenRepositoryImpl.shared(remote)
+
+        repo.getKitchens { response in
+            switch response {
+            case .success(let value):
+                self.model = value
+                self.tableView.reloadData()
+            case .failure(let error):
+                print(error.errorDescription)
             }
         }
     }
@@ -69,7 +77,7 @@ class HomeViewController: UIViewController {
 
 extension HomeViewController: UITableViewDelegate, UITableViewDataSource {
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return 3
+        return model.count
     }
 
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {

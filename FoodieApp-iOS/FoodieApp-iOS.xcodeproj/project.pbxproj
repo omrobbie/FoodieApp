@@ -31,6 +31,9 @@
 		FC3367992567BFA000DBEA58 /* RemoteDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC3367982567BFA000DBEA58 /* RemoteDataSource.swift */; };
 		FC33679C2567C14600DBEA58 /* ApiCall.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC33679B2567C14600DBEA58 /* ApiCall.swift */; };
 		FC3367A12567C3D700DBEA58 /* ErrorHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC3367A02567C3D700DBEA58 /* ErrorHandler.swift */; };
+		FC3367BD2567D35C00DBEA58 /* KitchenRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC3367BC2567D35C00DBEA58 /* KitchenRepository.swift */; };
+		FC3367C32567D3DD00DBEA58 /* KitchenModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC3367C22567D3DD00DBEA58 /* KitchenModel.swift */; };
+		FC3367C72567D5D400DBEA58 /* KitchenMapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC3367C62567D5D400DBEA58 /* KitchenMapper.swift */; };
 		FC3FDF7B255F4F2B00AEF21E /* MainTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC3FDF7A255F4F2B00AEF21E /* MainTabBarViewController.swift */; };
 		FC3FDF81255F55AA00AEF21E /* KitchenDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC3FDF7F255F55AA00AEF21E /* KitchenDetailViewController.swift */; };
 		FC3FDF82255F55AA00AEF21E /* KitchenDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FC3FDF80255F55AA00AEF21E /* KitchenDetailViewController.xib */; };
@@ -119,6 +122,9 @@
 		FC3367982567BFA000DBEA58 /* RemoteDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteDataSource.swift; sourceTree = "<group>"; };
 		FC33679B2567C14600DBEA58 /* ApiCall.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiCall.swift; sourceTree = "<group>"; };
 		FC3367A02567C3D700DBEA58 /* ErrorHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorHandler.swift; sourceTree = "<group>"; };
+		FC3367BC2567D35C00DBEA58 /* KitchenRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KitchenRepository.swift; sourceTree = "<group>"; };
+		FC3367C22567D3DD00DBEA58 /* KitchenModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KitchenModel.swift; sourceTree = "<group>"; };
+		FC3367C62567D5D400DBEA58 /* KitchenMapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KitchenMapper.swift; sourceTree = "<group>"; };
 		FC3FDF7A255F4F2B00AEF21E /* MainTabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarViewController.swift; sourceTree = "<group>"; };
 		FC3FDF7F255F55AA00AEF21E /* KitchenDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KitchenDetailViewController.swift; sourceTree = "<group>"; };
 		FC3FDF80255F55AA00AEF21E /* KitchenDetailViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = KitchenDetailViewController.xib; sourceTree = "<group>"; };
@@ -241,6 +247,7 @@
 			isa = PBXGroup;
 			children = (
 				FC3367912567BD6D00DBEA58 /* Data */,
+				FC3367C02567D3CA00DBEA58 /* Domain */,
 			);
 			path = Core;
 			sourceTree = "<group>";
@@ -249,6 +256,7 @@
 			isa = PBXGroup;
 			children = (
 				FC3367922567BD7600DBEA58 /* Remote */,
+				FC3367BC2567D35C00DBEA58 /* KitchenRepository.swift */,
 			);
 			path = Data;
 			sourceTree = "<group>";
@@ -276,8 +284,25 @@
 			children = (
 				FC33679B2567C14600DBEA58 /* ApiCall.swift */,
 				FC3367A02567C3D700DBEA58 /* ErrorHandler.swift */,
+				FC3367C62567D5D400DBEA58 /* KitchenMapper.swift */,
 			);
 			path = Utilities;
+			sourceTree = "<group>";
+		};
+		FC3367C02567D3CA00DBEA58 /* Domain */ = {
+			isa = PBXGroup;
+			children = (
+				FC3367C12567D3D600DBEA58 /* Model */,
+			);
+			path = Domain;
+			sourceTree = "<group>";
+		};
+		FC3367C12567D3D600DBEA58 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				FC3367C22567D3DD00DBEA58 /* KitchenModel.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 		FC3FDF79255F4EF200AEF21E /* Helpers */ = {
@@ -686,6 +711,7 @@
 				FC4F9D9C255B8E4600996D92 /* WelcomeViewController.swift in Sources */,
 				FC8BDA53256257300083294E /* MyOrderSummaryDetailTableViewCell.swift in Sources */,
 				FC8BDA492562506B0083294E /* MyOrderLocationTableViewCell.swift in Sources */,
+				FC3367BD2567D35C00DBEA58 /* KitchenRepository.swift in Sources */,
 				FC4F9DD0255B9C5C00996D92 /* FontName.swift in Sources */,
 				FC16AF282560CADF00180235 /* BasketViewController.swift in Sources */,
 				FC4FBA24255E239900BD4A1E /* UIView+Extension.swift in Sources */,
@@ -711,6 +737,7 @@
 				FC8BDA6125625E130083294E /* BottomSheetViewController.swift in Sources */,
 				FCD228B2255CA49900FDCB5A /* CreateAccountViewController.swift in Sources */,
 				FC16AEFB255FAB5000180235 /* KitchenDetailCollectionViewCell.swift in Sources */,
+				FC3367C32567D3DD00DBEA58 /* KitchenModel.swift in Sources */,
 				FC4F9E02255C2EC000996D92 /* CustomButton.swift in Sources */,
 				FCE2C1E7255DFDB000BF246A /* CustomButtonSmall.swift in Sources */,
 				FC16AF3A256137F900180235 /* BasketOrderTotalTableViewCell.swift in Sources */,
@@ -723,6 +750,7 @@
 				FCE2C1DD255D315400BF246A /* HomeViewController.swift in Sources */,
 				FC8BDA4E256256220083294E /* MyOrderSummaryTableViewCell.swift in Sources */,
 				FC8BDA3825621EA10083294E /* MyOrderTableViewCell.swift in Sources */,
+				FC3367C72567D5D400DBEA58 /* KitchenMapper.swift in Sources */,
 				FCBF6675255D174100E86744 /* LoginViewController.swift in Sources */,
 				FC3367992567BFA000DBEA58 /* RemoteDataSource.swift in Sources */,
 				FC16AEFF255FAC2400180235 /* CellName.swift in Sources */,
