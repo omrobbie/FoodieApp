@@ -34,6 +34,7 @@
 		FC3367BD2567D35C00DBEA58 /* KitchenRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC3367BC2567D35C00DBEA58 /* KitchenRepository.swift */; };
 		FC3367C32567D3DD00DBEA58 /* KitchenModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC3367C22567D3DD00DBEA58 /* KitchenModel.swift */; };
 		FC3367C72567D5D400DBEA58 /* KitchenMapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC3367C62567D5D400DBEA58 /* KitchenMapper.swift */; };
+		FC3367CB2567DBD100DBEA58 /* HomeUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC3367CA2567DBD100DBEA58 /* HomeUseCase.swift */; };
 		FC3FDF7B255F4F2B00AEF21E /* MainTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC3FDF7A255F4F2B00AEF21E /* MainTabBarViewController.swift */; };
 		FC3FDF81255F55AA00AEF21E /* KitchenDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC3FDF7F255F55AA00AEF21E /* KitchenDetailViewController.swift */; };
 		FC3FDF82255F55AA00AEF21E /* KitchenDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FC3FDF80255F55AA00AEF21E /* KitchenDetailViewController.xib */; };
@@ -125,6 +126,7 @@
 		FC3367BC2567D35C00DBEA58 /* KitchenRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KitchenRepository.swift; sourceTree = "<group>"; };
 		FC3367C22567D3DD00DBEA58 /* KitchenModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KitchenModel.swift; sourceTree = "<group>"; };
 		FC3367C62567D5D400DBEA58 /* KitchenMapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KitchenMapper.swift; sourceTree = "<group>"; };
+		FC3367CA2567DBD100DBEA58 /* HomeUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeUseCase.swift; sourceTree = "<group>"; };
 		FC3FDF7A255F4F2B00AEF21E /* MainTabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarViewController.swift; sourceTree = "<group>"; };
 		FC3FDF7F255F55AA00AEF21E /* KitchenDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KitchenDetailViewController.swift; sourceTree = "<group>"; };
 		FC3FDF80255F55AA00AEF21E /* KitchenDetailViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = KitchenDetailViewController.xib; sourceTree = "<group>"; };
@@ -293,6 +295,7 @@
 			isa = PBXGroup;
 			children = (
 				FC3367C12567D3D600DBEA58 /* Model */,
+				FC3367C92567DB9F00DBEA58 /* UseCase */,
 			);
 			path = Domain;
 			sourceTree = "<group>";
@@ -303,6 +306,14 @@
 				FC3367C22567D3DD00DBEA58 /* KitchenModel.swift */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		FC3367C92567DB9F00DBEA58 /* UseCase */ = {
+			isa = PBXGroup;
+			children = (
+				FC3367CA2567DBD100DBEA58 /* HomeUseCase.swift */,
+			);
+			path = UseCase;
 			sourceTree = "<group>";
 		};
 		FC3FDF79255F4EF200AEF21E /* Helpers */ = {
@@ -745,6 +756,7 @@
 				FC8BDA5D25625A810083294E /* MyOrderTotalTableViewCell.swift in Sources */,
 				FC8BDACE2564C8200083294E /* ProfileEditViewController.swift in Sources */,
 				FC8BDAC22563CA2D0083294E /* CustomTextView.swift in Sources */,
+				FC3367CB2567DBD100DBEA58 /* HomeUseCase.swift in Sources */,
 				FC33679C2567C14600DBEA58 /* ApiCall.swift in Sources */,
 				FCD228B7255CA99500FDCB5A /* CustomTextField.swift in Sources */,
 				FCE2C1DD255D315400BF246A /* HomeViewController.swift in Sources */,

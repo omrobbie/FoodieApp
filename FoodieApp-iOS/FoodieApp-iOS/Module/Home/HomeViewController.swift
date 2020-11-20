@@ -29,8 +29,9 @@ class HomeViewController: UIViewController {
     private func loadData() {
         let remote = RemoteDataSourceImpl.shared
         let repo = KitchenRepositoryImpl.shared(remote)
+        let useCase = HomeUseCaseImpl(repository: repo)
 
-        repo.getKitchens { response in
+        useCase.getKitchens { response in
             switch response {
             case .success(let value):
                 self.model = value
