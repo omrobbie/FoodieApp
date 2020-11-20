@@ -69,6 +69,9 @@ extension CurrentLocationViewController: CLLocationManagerDelegate {
             self.locationName = "\(placemark.locality ?? "") - \(placemark.subLocality ?? "")"
             self.lblLocationName.text = self.locationName
 
+            let userDefaults = UserDefaults.standard
+            userDefaults.setValue(self.locationName, forKey: "locationName")
+
             let tabBarVC = TabBar.viewController()
             tabBarVC.modalPresentationStyle = .fullScreen
             self.present(tabBarVC, animated: true)

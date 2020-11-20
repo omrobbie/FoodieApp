@@ -10,6 +10,7 @@ import UIKit
 class HomeViewController: UIViewController {
 
     @IBOutlet weak var headerBox: UIView!
+    @IBOutlet weak var lblLocationName: UILabel!
     @IBOutlet weak var txtSearch: UISearchBar!
     @IBOutlet weak var sgmFilters: UISegmentedControl!
     @IBOutlet weak var tableView: UITableView!
@@ -52,6 +53,10 @@ class HomeViewController: UIViewController {
 
     private func setupHeader() {
         headerBox.withShadow()
+
+        let userDefaults = UserDefaults.standard
+        let locationName = userDefaults.string(forKey: "locationName")
+        lblLocationName.text = locationName
     }
 
     private func setupSearchBar() {

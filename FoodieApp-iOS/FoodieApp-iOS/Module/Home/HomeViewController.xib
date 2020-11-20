@@ -21,6 +21,7 @@
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="HomeViewController" customModule="FoodieApp_iOS" customModuleProvider="target">
             <connections>
                 <outlet property="headerBox" destination="Co0-oB-HVO" id="hAO-Sv-6oy"/>
+                <outlet property="lblLocationName" destination="gen-op-I4G" id="Bih-IA-27l"/>
                 <outlet property="sgmFilters" destination="xqJ-bT-aFH" id="pBm-19-lR0"/>
                 <outlet property="tableView" destination="f8A-h1-2JL" id="yVN-Jt-XfZ"/>
                 <outlet property="txtSearch" destination="yA0-i2-2rP" id="VEP-Pw-Jiz"/>
@@ -40,26 +41,26 @@
                     <rect key="frame" x="0.0" y="44" width="414" height="190"/>
                     <subviews>
                         <stackView opaque="NO" contentMode="scaleToFill" alignment="center" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="yh1-Rg-Mnv">
-                            <rect key="frame" x="28" y="25" width="358" height="37.5"/>
+                            <rect key="frame" x="28" y="25" width="358" height="45.5"/>
                             <subviews>
                                 <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="pin-map" translatesAutoresizingMaskIntoConstraints="NO" id="DrI-vZ-v44">
-                                    <rect key="frame" x="0.0" y="11.5" width="15" height="15"/>
+                                    <rect key="frame" x="0.0" y="15.5" width="15" height="15"/>
                                     <constraints>
                                         <constraint firstAttribute="width" constant="15" id="kZo-be-vrk"/>
                                         <constraint firstAttribute="height" constant="15" id="vkb-oz-JHX"/>
                                     </constraints>
                                 </imageView>
                                 <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" translatesAutoresizingMaskIntoConstraints="NO" id="CU7-eM-dZO">
-                                    <rect key="frame" x="23" y="0.0" width="335" height="37.5"/>
+                                    <rect key="frame" x="23" y="0.0" width="335" height="45.5"/>
                                     <subviews>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Current location" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IEd-zn-I2V">
-                                            <rect key="frame" x="0.0" y="0.0" width="100.5" height="16.5"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="114" height="20"/>
                                             <fontDescription key="fontDescription" name="Poppins-Regular" family="Poppins" pointSize="14"/>
                                             <color key="textColor" red="0.31372549019607843" green="0.36862745098039218" blue="0.45098039215686275" alpha="1" colorSpace="calibratedRGB"/>
                                             <nil key="highlightedColor"/>
                                         </label>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Jalan Raya Babakan, 16 Canggu, Bali - Indonesia" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gen-op-I4G">
-                                            <rect key="frame" x="0.0" y="16.5" width="335" height="21"/>
+                                            <rect key="frame" x="0.0" y="20" width="335" height="25.5"/>
                                             <fontDescription key="fontDescription" name="Poppins-Medium" family="Poppins" pointSize="18"/>
                                             <color key="textColor" name="darkGray-color"/>
                                             <nil key="highlightedColor"/>
@@ -69,11 +70,11 @@
                             </subviews>
                         </stackView>
                         <searchBar contentMode="redraw" searchBarStyle="minimal" placeholder="What are you craving?" translatesAutoresizingMaskIntoConstraints="NO" id="yA0-i2-2rP">
-                            <rect key="frame" x="20" y="77.5" width="374" height="56"/>
+                            <rect key="frame" x="20" y="85.5" width="374" height="56"/>
                             <textInputTraits key="textInputTraits"/>
                         </searchBar>
                         <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OoE-qb-eak" customClass="CustomButtonSmall" customModule="FoodieApp_iOS" customModuleProvider="target">
-                            <rect key="frame" x="28" y="133.5" width="74" height="31"/>
+                            <rect key="frame" x="28" y="141.5" width="74" height="31"/>
                             <constraints>
                                 <constraint firstAttribute="width" constant="74" id="ftc-bF-iBv"/>
                             </constraints>
@@ -86,7 +87,7 @@
                             </userDefinedRuntimeAttributes>
                         </button>
                         <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="xqJ-bT-aFH">
-                            <rect key="frame" x="115" y="133.5" width="133" height="32"/>
+                            <rect key="frame" x="115" y="141.5" width="133" height="32"/>
                             <segments>
                                 <segment title="Nearby"/>
                                 <segment title="Popular"/>
