@@ -6,5 +6,6 @@
 //
 
 struct NibName {
+    static let welcomeVC = "WelcomeViewController"
     static let homeVC = "HomeViewController"
 }

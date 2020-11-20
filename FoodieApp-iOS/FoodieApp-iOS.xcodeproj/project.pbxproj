@@ -37,6 +37,8 @@
 		FC3367CB2567DBD100DBEA58 /* HomeUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC3367CA2567DBD100DBEA58 /* HomeUseCase.swift */; };
 		FC3367CF2567DD4F00DBEA58 /* DependencyInjection.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC3367CE2567DD4F00DBEA58 /* DependencyInjection.swift */; };
 		FC3367D22567E0CD00DBEA58 /* NibName.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC3367D12567E0CD00DBEA58 /* NibName.swift */; };
+		FC3368192567F1E200DBEA58 /* CurrentLocationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC3368172567F1E200DBEA58 /* CurrentLocationViewController.swift */; };
+		FC33681A2567F1E200DBEA58 /* CurrentLocationViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FC3368182567F1E200DBEA58 /* CurrentLocationViewController.xib */; };
 		FC3FDF7B255F4F2B00AEF21E /* MainTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC3FDF7A255F4F2B00AEF21E /* MainTabBarViewController.swift */; };
 		FC3FDF81255F55AA00AEF21E /* KitchenDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC3FDF7F255F55AA00AEF21E /* KitchenDetailViewController.swift */; };
 		FC3FDF82255F55AA00AEF21E /* KitchenDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FC3FDF80255F55AA00AEF21E /* KitchenDetailViewController.xib */; };
@@ -131,6 +133,8 @@
 		FC3367CA2567DBD100DBEA58 /* HomeUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeUseCase.swift; sourceTree = "<group>"; };
 		FC3367CE2567DD4F00DBEA58 /* DependencyInjection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DependencyInjection.swift; sourceTree = "<group>"; };
 		FC3367D12567E0CD00DBEA58 /* NibName.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NibName.swift; sourceTree = "<group>"; };
+		FC3368172567F1E200DBEA58 /* CurrentLocationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrentLocationViewController.swift; sourceTree = "<group>"; };
+		FC3368182567F1E200DBEA58 /* CurrentLocationViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CurrentLocationViewController.xib; sourceTree = "<group>"; };
 		FC3FDF7A255F4F2B00AEF21E /* MainTabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarViewController.swift; sourceTree = "<group>"; };
 		FC3FDF7F255F55AA00AEF21E /* KitchenDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KitchenDetailViewController.swift; sourceTree = "<group>"; };
 		FC3FDF80255F55AA00AEF21E /* KitchenDetailViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = KitchenDetailViewController.xib; sourceTree = "<group>"; };
@@ -320,6 +324,15 @@
 			path = UseCase;
 			sourceTree = "<group>";
 		};
+		FC3368152567F19600DBEA58 /* CurrentLocation */ = {
+			isa = PBXGroup;
+			children = (
+				FC3368172567F1E200DBEA58 /* CurrentLocationViewController.swift */,
+				FC3368182567F1E200DBEA58 /* CurrentLocationViewController.xib */,
+			);
+			path = CurrentLocation;
+			sourceTree = "<group>";
+		};
 		FC3FDF79255F4EF200AEF21E /* Helpers */ = {
 			isa = PBXGroup;
 			children = (
@@ -384,6 +397,7 @@
 				FCBF6678255D174600E86744 /* Login */,
 				FCD228AF255CA45200FDCB5A /* CreateAccount */,
 				FCBF6681255D1A9500E86744 /* CheckEmail */,
+				FC3368152567F19600DBEA58 /* CurrentLocation */,
 				FCE2C1E0255D315800BF246A /* Home */,
 				FC8BDA32256215740083294E /* MyOrder */,
 				FC8BDAC92564BB8A0083294E /* Profile */,
@@ -626,6 +640,7 @@
 				FC3FDF82255F55AA00AEF21E /* KitchenDetailViewController.xib in Resources */,
 				FC4F9DC8255B9A9200996D92 /* Poppins-Light.ttf in Resources */,
 				FCE2C1DE255D315400BF246A /* HomeViewController.xib in Resources */,
+				FC33681A2567F1E200DBEA58 /* CurrentLocationViewController.xib in Resources */,
 				FC16AEFC255FAB5000180235 /* KitchenDetailCollectionViewCell.xib in Resources */,
 				FC8BDA59256258E20083294E /* MyOrderSubtotalTableViewCell.xib in Resources */,
 				FCBF6676255D174100E86744 /* LoginViewController.xib in Resources */,
@@ -760,6 +775,7 @@
 				FC4F9E02255C2EC000996D92 /* CustomButton.swift in Sources */,
 				FCE2C1E7255DFDB000BF246A /* CustomButtonSmall.swift in Sources */,
 				FC16AF3A256137F900180235 /* BasketOrderTotalTableViewCell.swift in Sources */,
+				FC3368192567F1E200DBEA58 /* CurrentLocationViewController.swift in Sources */,
 				FC4F9DF8255C2B2200996D92 /* CustomLabel.swift in Sources */,
 				FC8BDA5D25625A810083294E /* MyOrderTotalTableViewCell.swift in Sources */,
 				FC8BDACE2564C8200083294E /* ProfileEditViewController.swift in Sources */,

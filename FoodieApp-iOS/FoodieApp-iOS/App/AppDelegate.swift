@@ -20,12 +20,15 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
         let storyboard = UIStoryboard(name: "Main", bundle: nil)
         let welcomeVC = storyboard.instantiateViewController(
-            withIdentifier: "WelcomeViewController"
+            withIdentifier: NibName.welcomeVC
         ) as? WelcomeViewController
+
+        let currentLocationVC = CurrentLocationViewController()
+        currentLocationVC.modalPresentationStyle = .fullScreen
 
         let isLoggedIn = true // TODO: Check from UserDefaults
 
-        window?.rootViewController = isLoggedIn ? TabBar.viewController() : welcomeVC
+        window?.rootViewController = isLoggedIn ? currentLocationVC : welcomeVC
         window?.makeKeyAndVisible()
 
         return true

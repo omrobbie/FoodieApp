@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17506" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17505"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Poppins-Regular.ttf">
+            <string>Poppins-Regular</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="CurrentLocationViewController" customModule="FoodieApp_iOS" customModuleProvider="target">
+            <connections>
+                <outlet property="imgPin" destination="Syt-ps-pwQ" id="6S7-H4-dxz"/>
+                <outlet property="imgPinBounce" destination="ytl-fT-wet" id="xqV-h1-xrC"/>
+                <outlet property="lblLocationName" destination="HhE-dc-3ad" id="C6s-ZD-mtK"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="world-map" translatesAutoresizingMaskIntoConstraints="NO" id="frp-HB-q2X">
+                    <rect key="frame" x="0.0" y="144" width="414" height="250"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="250" id="Kb2-pL-uUg"/>
+                    </constraints>
+                </imageView>
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="mappin" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="ytl-fT-wet">
+                    <rect key="frame" x="230" y="143.5" width="64" height="64"/>
+                    <color key="tintColor" red="0.91764705879999997" green="0.26274509800000001" blue="0.20784313730000001" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="64" id="x49-xl-8gJ"/>
+                        <constraint firstAttribute="width" constant="64" id="zBe-D1-Jdm"/>
+                    </constraints>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Location name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HhE-dc-3ad">
+                    <rect key="frame" x="68" y="428" width="105" height="20"/>
+                    <fontDescription key="fontDescription" name="Poppins-Regular" family="Poppins" pointSize="14"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="mappin.and.ellipse" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="Syt-ps-pwQ">
+                    <rect key="frame" x="28" y="421.5" width="32" height="32.5"/>
+                    <color key="tintColor" red="0.91764705879999997" green="0.26274509800000001" blue="0.20784313730000001" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="32" id="m96-Q0-qPH"/>
+                        <constraint firstAttribute="height" constant="32" id="puJ-bY-yC0"/>
+                    </constraints>
+                </imageView>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+            <constraints>
+                <constraint firstItem="Syt-ps-pwQ" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="28" id="2C9-BB-iPd"/>
+                <constraint firstItem="frp-HB-q2X" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="6NJ-ll-vBK"/>
+                <constraint firstItem="HhE-dc-3ad" firstAttribute="centerY" secondItem="Syt-ps-pwQ" secondAttribute="centerY" id="8km-6y-btG"/>
+                <constraint firstItem="HhE-dc-3ad" firstAttribute="leading" secondItem="Syt-ps-pwQ" secondAttribute="trailing" constant="8" id="DSf-LI-YDa"/>
+                <constraint firstItem="frp-HB-q2X" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" constant="100" id="GxJ-7C-edz"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="ytl-fT-wet" secondAttribute="trailing" constant="120" id="NUn-gc-GpT"/>
+                <constraint firstItem="ytl-fT-wet" firstAttribute="top" secondItem="frp-HB-q2X" secondAttribute="top" id="YBO-K8-bUj"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="frp-HB-q2X" secondAttribute="trailing" id="cc8-YX-zV5"/>
+                <constraint firstItem="Syt-ps-pwQ" firstAttribute="top" secondItem="frp-HB-q2X" secondAttribute="bottom" constant="28" id="frs-ld-PGI"/>
+            </constraints>
+            <point key="canvasLocation" x="-7.2463768115942031" y="86.383928571428569"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="mappin" catalog="system" width="105" height="128"/>
+        <image name="mappin.and.ellipse" catalog="system" width="118" height="128"/>
+        <image name="world-map" width="512" height="512"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
