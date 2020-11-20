@@ -11,5 +11,6 @@ target 'FoodieApp-iOS' do
   pod 'IQKeyboardManagerSwift'
   pod 'GMStepper'
   pod 'SwiftyStarRatingView'
+  pod 'Alamofire'
 
 end

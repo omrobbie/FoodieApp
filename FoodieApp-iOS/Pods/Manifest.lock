@@ -1,4 +1,5 @@
 PODS:
+  - Alamofire (5.4.0)
   - CountryPickerView (3.1.3)
   - GMStepper (2.2)
   - IQKeyboardManagerSwift (6.5.6)
@@ -6,6 +7,7 @@ PODS:
   - SwiftyStarRatingView (1.0.4)
 
 DEPENDENCIES:
+  - Alamofire
   - CountryPickerView
   - GMStepper
   - IQKeyboardManagerSwift
@@ -14,6 +16,7 @@ DEPENDENCIES:
 
 SPEC REPOS:
   trunk:
+    - Alamofire
     - CountryPickerView
     - GMStepper
     - IQKeyboardManagerSwift
@@ -21,12 +24,13 @@ SPEC REPOS:
     - SwiftyStarRatingView
 
 SPEC CHECKSUMS:
+  Alamofire: 3b6a534a3df22db367e4dedeeca73d1ddfcf0e2f
   CountryPickerView: 383c09949f7455de9892db7ce3400b10da090150
   GMStepper: 89fb106944dfcc3aa3add7164e3ebd463ea2104b
   IQKeyboardManagerSwift: c7df9d2deb356c04522f5c4b7b6e4ce4d8ed94fe
   SwiftLint: c585ebd615d9520d7fbdbe151f527977b0534f1e
   SwiftyStarRatingView: a2b0057700e0adeb8e7442c55d99cb53b531d2f4
 
-PODFILE CHECKSUM: 46f016180b39738b39039da64ea0d93c71396ea0
+PODFILE CHECKSUM: 1be0eb8f27ebf48e5b98affceeb5c82ddd16cbc7
 
 COCOAPODS: 1.8.4
