@@ -5,7 +5,7 @@
 //  Created by omrobbie on 20/11/20.
 //
 
-import Foundation
+import Alamofire
 
 protocol RemoteDataSource {
     func getKitchens(completion: @escaping (Result<[KitchenResponse], URLError>) -> Void)
@@ -20,26 +20,13 @@ extension RemoteDataSourceImpl: RemoteDataSource {
         let urlString = Endpoints.Gets.kitchens.url
         guard let url = URL(string: urlString) else {return}
 
-        URLSession.shared.dataTask(with: url) { (data, response, error) in
-            if error != nil {
-                completion(.failure(.unreachable(url)))
-                return
-            }
-
-            guard let response = response as? HTTPURLResponse, (200...299).contains(response.statusCode) else {
+        AF.request(url).validate().responseDecodable(of: KitchensResponse.self) { response in
+            switch response.result {
+            case .success(let value):
+                completion(.success(value.kitchens))
+            case .failure:
                 completion(.failure(.invalidResponse))
-                return
             }
-
-            if let data = data {
-                do {
-                    let decodeData = try JSONDecoder().decode(KitchensResponse.self, from: data)
-                    print(decodeData.kitchens)
-                    completion(.success(decodeData.kitchens))
-                } catch {
-                    completion(.failure(.invalidResponse))
-                }
-            }
-        }.resume()
+        }
     }
 }
