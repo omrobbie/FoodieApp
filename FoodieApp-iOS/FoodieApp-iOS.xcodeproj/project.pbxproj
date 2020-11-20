@@ -35,6 +35,8 @@
 		FC3367C32567D3DD00DBEA58 /* KitchenModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC3367C22567D3DD00DBEA58 /* KitchenModel.swift */; };
 		FC3367C72567D5D400DBEA58 /* KitchenMapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC3367C62567D5D400DBEA58 /* KitchenMapper.swift */; };
 		FC3367CB2567DBD100DBEA58 /* HomeUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC3367CA2567DBD100DBEA58 /* HomeUseCase.swift */; };
+		FC3367CF2567DD4F00DBEA58 /* DependencyInjection.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC3367CE2567DD4F00DBEA58 /* DependencyInjection.swift */; };
+		FC3367D22567E0CD00DBEA58 /* NibName.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC3367D12567E0CD00DBEA58 /* NibName.swift */; };
 		FC3FDF7B255F4F2B00AEF21E /* MainTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC3FDF7A255F4F2B00AEF21E /* MainTabBarViewController.swift */; };
 		FC3FDF81255F55AA00AEF21E /* KitchenDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC3FDF7F255F55AA00AEF21E /* KitchenDetailViewController.swift */; };
 		FC3FDF82255F55AA00AEF21E /* KitchenDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FC3FDF80255F55AA00AEF21E /* KitchenDetailViewController.xib */; };
@@ -127,6 +129,8 @@
 		FC3367C22567D3DD00DBEA58 /* KitchenModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KitchenModel.swift; sourceTree = "<group>"; };
 		FC3367C62567D5D400DBEA58 /* KitchenMapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KitchenMapper.swift; sourceTree = "<group>"; };
 		FC3367CA2567DBD100DBEA58 /* HomeUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeUseCase.swift; sourceTree = "<group>"; };
+		FC3367CE2567DD4F00DBEA58 /* DependencyInjection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DependencyInjection.swift; sourceTree = "<group>"; };
+		FC3367D12567E0CD00DBEA58 /* NibName.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NibName.swift; sourceTree = "<group>"; };
 		FC3FDF7A255F4F2B00AEF21E /* MainTabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarViewController.swift; sourceTree = "<group>"; };
 		FC3FDF7F255F55AA00AEF21E /* KitchenDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KitchenDetailViewController.swift; sourceTree = "<group>"; };
 		FC3FDF80255F55AA00AEF21E /* KitchenDetailViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = KitchenDetailViewController.xib; sourceTree = "<group>"; };
@@ -391,6 +395,7 @@
 			isa = PBXGroup;
 			children = (
 				FC4F9D97255B8E4600996D92 /* AppDelegate.swift */,
+				FC3367CE2567DD4F00DBEA58 /* DependencyInjection.swift */,
 			);
 			path = App;
 			sourceTree = "<group>";
@@ -433,6 +438,7 @@
 				FC4F9DF2255BE0C300996D92 /* ColorName.swift */,
 				FCBF666C255D116900E86744 /* IconName.swift */,
 				FC16AEFE255FAC2400180235 /* CellName.swift */,
+				FC3367D12567E0CD00DBEA58 /* NibName.swift */,
 			);
 			path = Constants;
 			sourceTree = "<group>";
@@ -730,11 +736,13 @@
 				FC8BDA4425623FAE0083294E /* MyOrderDeliverTableViewCell.swift in Sources */,
 				FCBF666D255D116900E86744 /* IconName.swift in Sources */,
 				FC4F9D98255B8E4600996D92 /* AppDelegate.swift in Sources */,
+				FC3367D22567E0CD00DBEA58 /* NibName.swift in Sources */,
 				FC16AF3025612F2F00180235 /* BasketDeliverTableViewCell.swift in Sources */,
 				FC8BDA66256262040083294E /* FeedbackViewController.swift in Sources */,
 				FC8BDA58256258E20083294E /* MyOrderSubtotalTableViewCell.swift in Sources */,
 				FC8BDA3D25623C3C0083294E /* MyOrderDetailViewController.swift in Sources */,
 				FC4F9DF3255BE0C300996D92 /* ColorName.swift in Sources */,
+				FC3367CF2567DD4F00DBEA58 /* DependencyInjection.swift in Sources */,
 				FCBF6671255D124800E86744 /* UITextField+Extension.swift in Sources */,
 				FC16AF35256130FF00180235 /* BasketOrderTableViewCell.swift in Sources */,
 				FC16AF0D2560BC6300180235 /* FoodDetailViewController.swift in Sources */,

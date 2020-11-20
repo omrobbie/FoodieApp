@@ -21,7 +21,8 @@ struct TabBar {
     }
 
     static private func homeVC() -> UIViewController {
-        let homeVC = HomeViewController()
+        let homeUseCase = DependencyInjection.provideHome()
+        let homeVC = HomeViewController(useCase: homeUseCase)
         homeVC.tabBarItem = UITabBarItem(
             title: "Home",
             image: Icon.home,

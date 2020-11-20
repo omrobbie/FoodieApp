@@ -14,7 +14,17 @@ class HomeViewController: UIViewController {
     @IBOutlet weak var sgmFilters: UISegmentedControl!
     @IBOutlet weak var tableView: UITableView!
 
+    private let useCase: HomeUseCase
     private var model: [KitchenModel] = []
+
+    init(useCase: HomeUseCase) {
+        self.useCase = useCase
+        super.init(nibName: NibName.homeVC, bundle: nil)
+    }
+
+    required init?(coder: NSCoder) {
+        fatalError("init(coder:) has not been implemented")
+    }
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -27,15 +37,13 @@ class HomeViewController: UIViewController {
     }
 
     private func loadData() {
-        let remote = RemoteDataSourceImpl.shared
-        let repo = KitchenRepositoryImpl.shared(remote)
-        let useCase = HomeUseCaseImpl(repository: repo)
-
         useCase.getKitchens { response in
             switch response {
             case .success(let value):
-                self.model = value
-                self.tableView.reloadData()
+                DispatchQueue.main.async {
+                    self.model = value
+                    self.tableView.reloadData()
+                }
             case .failure(let error):
                 print(error.errorDescription)
             }
