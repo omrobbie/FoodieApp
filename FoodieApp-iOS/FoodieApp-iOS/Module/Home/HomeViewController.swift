@@ -6,6 +6,7 @@
 //
 
 import UIKit
+import RxSwift
 
 class HomeViewController: UIViewController {
 
@@ -17,6 +18,8 @@ class HomeViewController: UIViewController {
 
     private let useCase: HomeUseCase
     private var model: [KitchenModel] = []
+
+    private let disposeBag = DisposeBag()
 
     init(useCase: HomeUseCase) {
         self.useCase = useCase
@@ -38,17 +41,15 @@ class HomeViewController: UIViewController {
     }
 
     private func loadData() {
-        useCase.getKitchens { result in
-            switch result {
-            case .success(let value):
-                DispatchQueue.main.async {
-                    self.model = value
-                    self.tableView.reloadData()
-                }
-            case .failure(let error):
-                print(error.errorDescription)
-            }
-        }
+        useCase.getKitchens()
+            .observeOn(MainScheduler.instance)
+            .subscribe { result in
+                self.model = result
+            } onError: { error in
+                print(error)
+            } onCompleted: {
+                self.tableView.reloadData()
+            }.disposed(by: disposeBag)
     }
 
     private func setupHeader() {

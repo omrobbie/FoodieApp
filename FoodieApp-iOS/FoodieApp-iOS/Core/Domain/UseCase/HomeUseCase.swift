@@ -5,8 +5,10 @@
 //  Created by omrobbie on 20/11/20.
 //
 
+import RxSwift
+
 protocol HomeUseCase {
-    func getKitchens(completion: @escaping (Result<[KitchenModel], URLError>) -> Void)
+    func getKitchens() -> Observable<[KitchenModel]>
 }
 
 class HomeUseCaseImpl: HomeUseCase {
@@ -16,9 +18,7 @@ class HomeUseCaseImpl: HomeUseCase {
         self.repository = repository
     }
 
-    func getKitchens(completion: @escaping (Result<[KitchenModel], URLError>) -> Void) {
-        repository.getKitchens { result in
-            completion(result)
-        }
+    func getKitchens() -> Observable<[KitchenModel]> {
+        repository.getKitchens()
     }
 }

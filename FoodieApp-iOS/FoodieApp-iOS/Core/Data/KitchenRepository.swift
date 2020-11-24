@@ -6,9 +6,10 @@
 //
 
 import Foundation
+import RxSwift
 
 protocol KitchenRepository {
-    func getKitchens(completion: @escaping (Result<[KitchenModel], URLError>) -> Void)
+    func getKitchens() -> Observable<[KitchenModel]>
 }
 
 class KitchenRepositoryImpl {
@@ -26,15 +27,8 @@ class KitchenRepositoryImpl {
 }
 
 extension KitchenRepositoryImpl: KitchenRepository {
-    func getKitchens(completion: @escaping (Result<[KitchenModel], URLError>) -> Void) {
-        remote.getKitchens { response in
-            switch response {
-            case .success(let value):
-                let mapper = KitchenMapper.mapResponseToDomain(response: value)
-                completion(.success(mapper))
-            case .failure(let error):
-                completion(.failure(error))
-            }
-        }
+    func getKitchens() -> Observable<[KitchenModel]> {
+        remote.getKitchens()
+            .map { KitchenMapper.mapResponseToDomain(response: $0) }
     }
 }
