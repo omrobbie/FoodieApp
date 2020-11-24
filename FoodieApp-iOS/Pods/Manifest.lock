@@ -6,6 +6,12 @@ PODS:
   - Kingfisher (5.15.7):
     - Kingfisher/Core (= 5.15.7)
   - Kingfisher/Core (5.15.7)
+  - RxCocoa (5.1.1):
+    - RxRelay (~> 5)
+    - RxSwift (~> 5)
+  - RxRelay (5.1.1):
+    - RxSwift (~> 5)
+  - RxSwift (5.1.1)
   - SwiftLint (0.41.0)
   - SwiftyStarRatingView (1.0.4)
 
@@ -15,6 +21,8 @@ DEPENDENCIES:
   - GMStepper
   - IQKeyboardManagerSwift
   - Kingfisher
+  - RxCocoa
+  - RxSwift
   - SwiftLint
   - SwiftyStarRatingView
 
@@ -25,6 +33,9 @@ SPEC REPOS:
     - GMStepper
     - IQKeyboardManagerSwift
     - Kingfisher
+    - RxCocoa
+    - RxRelay
+    - RxSwift
     - SwiftLint
     - SwiftyStarRatingView
 
@@ -34,9 +45,12 @@ SPEC CHECKSUMS:
   GMStepper: 89fb106944dfcc3aa3add7164e3ebd463ea2104b
   IQKeyboardManagerSwift: c7df9d2deb356c04522f5c4b7b6e4ce4d8ed94fe
   Kingfisher: 6e1a13523fcb1c86924ce53affe4ac957e544d59
+  RxCocoa: 32065309a38d29b5b0db858819b5bf9ef038b601
+  RxRelay: d77f7d771495f43c556cbc43eebd1bb54d01e8e9
+  RxSwift: 81470a2074fa8780320ea5fe4102807cb7118178
   SwiftLint: c585ebd615d9520d7fbdbe151f527977b0534f1e
   SwiftyStarRatingView: a2b0057700e0adeb8e7442c55d99cb53b531d2f4
 
-PODFILE CHECKSUM: f8437dab149543d17b48877b8b7b53134d8f2b45
+PODFILE CHECKSUM: 2cfb61c77bc857a51f47e880a54831e2cc3bdfdd
 
 COCOAPODS: 1.8.4
